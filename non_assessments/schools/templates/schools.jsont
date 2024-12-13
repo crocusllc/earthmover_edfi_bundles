@@ -1,0 +1,171 @@
+ {% if nameOfInstitution is not none and schoolId is not none and edOrgCategory_list is not none and gradeLevel_list is not none and edOrgCategory_list | length and gradeLevel_list | length %} 
+{
+  "educationOrganizationCategories": [
+  {% set edOrg_Cat = [] %}
+  {% if educationOrganizationCategory_0 != '' %}
+    {% set _= edOrg_Cat.append(educationOrganizationCategory_0) %}
+  {% endif %}
+  {% if educationOrganizationCategory_1 != '' %}
+    {% set _= edOrg_Cat.append(educationOrganizationCategory_1) %}
+  {% endif %}
+  {% if educationOrganizationCategory_2 != '' %}
+    {% set _= edOrg_Cat.append(educationOrganizationCategory_2) %}
+  {% endif %}
+  {% if educationOrganizationCategory_3 != '' %}
+    {% set _= edOrg_Cat.append(educationOrganizationCategory_3) %}
+  {% endif %}
+  {% if educationOrganizationCategory_n != '' %}
+    {% set _= edOrg_Cat.append(educationOrganizationCategory_n) %}
+  {% endif %}
+  {%- for edOrgCategory in edOrg_Cat -%}
+    {
+      "educationOrganizationCategoryDescriptor": "{{namespace}}/EducationOrganizationCategoryDescriptor#{{edOrgCategory}}"
+    }
+  {%- if not loop.last -%},
+  {%- else %}{% endif %}{%- endfor -%}
+  ],
+  "gradeLevels": [
+  {% set grade_Levels = [] %}
+  {% if gradeLevel_0 != '' %}
+    {% set _= grade_Levels.append(gradeLevel_0) %}
+  {% endif %}
+  {% if gradeLevel_1 != '' %}
+    {% set _= grade_Levels.append(gradeLevel_1) %}
+  {% endif %}
+  {% if gradeLevel_2 != '' %}
+    {% set _= grade_Levels.append(gradeLevel_2) %}
+  {% endif %}
+  {% if gradeLevel_3 != '' %}
+    {% set _= grade_Levels.append(gradeLevel_3) %}
+  {% endif %}
+  {% if gradeLevel_4 != '' %}
+    {% set _= grade_Levels.append(gradeLevel_4) %}
+  {% endif %}
+  {% if gradeLevel_5 != '' %}
+    {% set _= grade_Levels.append(gradeLevel_5) %}
+  {% endif %}
+  {% if gradeLevel_6 != '' %}
+    {% set _= grade_Levels.append(gradeLevel_6) %}
+  {% endif %}
+  {% if gradeLevel_7 != '' %}
+    {% set _= grade_Levels.append(gradeLevel_7) %}
+  {% endif %}
+  {% if gradeLevel_8 != '' %}
+    {% set _= grade_Levels.append(gradeLevel_8) %}
+  {% endif %}
+  {%- for gradeLevel in grade_Levels -%}
+    {
+      "gradeLevelDescriptor": "{{namespace}}/GradeLevelDescriptor#{{gradeLevel}}"
+    }
+  {%- if not loop.last -%},
+  {%- else %}{% endif %}{%- endfor -%}
+  ],
+  "schoolId": {{schoolId}},
+  "localEducationAgencyReference": {
+    "localEducationAgencyId": {{localEducationAgencyId}}
+  },
+  "addresses": [
+    {% if addressType is not none and state is not none and city is not none and postalCode is not none and streetNumberName is not none %}
+    {
+      "addressTypeDescriptor": "{{namespace}}/AddressTypeDescriptor#{{addressType}}",
+      "stateAbbreviationDescriptor": "{{namespace}}/StateAbbreviationDescriptor#{{state}}",
+      "city": "{{city}}",
+      "postalCode": "{{postalCode}}",
+      "streetNumberName": "{{streetNumberName}}",
+      {%if locale != '' %}
+      "localeDescriptor": "{{namespace}}/LocaleDescriptor#{{locale}}",
+      {% endif %}
+      "buildingSiteNumber": "{{buildingSiteNumber}}",
+      "doNotPublishIndicator": {{addressDoNotPublishIndicator}},
+      "nameOfCounty": "{{nameOfCounty}}",
+      "periods": [
+        {
+          "beginDate": "{{addressPeriodBeginDate}}",
+          "endDate": "{{addressPeriodEndDate}}"
+        }
+      ]
+    }
+    {% endif %}
+  ],
+  {%if administrativeFundingControl != '' %}
+  "administrativeFundingControlDescriptor": "{{namespace}}/AdministrativeFundingControlDescriptor#{{administrativeFundingControl}}",
+  {% endif %}
+  {%if charterApprovalAgencyType != '' %}
+  "charterApprovalAgencyTypeDescriptor": "{{namespace}}/CharterApprovalAgencyTypeDescriptor#{{charterApprovalAgencyType}}",
+   {% endif %}
+  {%if charterStatus != '' %}
+  "charterStatusDescriptor": "{{namespace}}/CharterStatusDescriptor#{{charterStatus}}",
+   {% endif %}
+  "identificationCodes": [
+  {% set edOrg_idCodes = [] %}
+  {% if EdOrgIdSystem_0 != '' or identificationCode_0 != '' %}
+    {% set _= edOrg_idCodes.append([EdOrgIdSystem_0, identificationCode_0]) %}
+  {% endif %}
+  {% if EdOrgIdSystem_1 != '' or identificationCode_1 != '' %}
+    {% set _= edOrg_idCodes.append([EdOrgIdSystem_1, identificationCode_1]) %}
+  {% endif %}
+  {% if EdOrgIdSystem_2 != '' or identificationCode_2 != '' %}
+    {% set _= edOrg_idCodes.append([EdOrgIdSystem_2, identificationCode_2]) %}
+  {% endif %}
+  {%- for code in edOrg_idCodes -%}
+    {
+      "educationOrganizationIdentificationSystemDescriptor": "{{namespace}}/EducationOrganizationIdentificationSystemDescriptor#{{code[0]}}",
+      "identificationCode": "{{code[1]}}"
+    }
+  {%- if not loop.last -%},
+  {%- else %}{% endif %}{%- endfor -%}
+  ],
+  "institutionTelephones": [
+  {% set phone_num = [] %}
+  {% if phoneType_0 != '' or telephoneNumber_0 != '' %}
+    {% set _= phone_num.append([phoneType_0, telephoneNumber_0]) %}
+  {% endif %}
+  {% if phoneType_1 != '' or telephoneNumber_1 != '' %}
+    {% set _= phone_num.append([phoneType_1, telephoneNumber_1]) %}
+  {% endif %}
+  {%- for num in phone_num -%}
+    {
+      "institutionTelephoneNumberTypeDescriptor": "{{namespace}}/InstitutionTelephoneNumberTypeDescriptor#{{num[0]}}",
+      "telephoneNumber": "{{num[1]}}"
+    }
+  {%- if not loop.last -%},
+  {%- else %}{% endif %}{%- endfor -%}
+  ],
+  {%if internetAccess != '' %}
+  "internetAccessDescriptor": "{{namespace}}/InternetAccessDescriptor#{{internetAccess}}",
+  {% endif %}
+  {%if magnetProgram != '' %}
+  "magnetSpecialProgramEmphasisSchoolDescriptor": "{{namespace}}/MagnetSpecialProgramEmphasisSchoolDescriptor#{{magnetProgram}}",
+  {% endif %}
+  "nameOfInstitution": "{{nameOfInstitution}}",
+  {%if operationalStatus != '' %}
+  "operationalStatusDescriptor": "{{namespace}}/OperationalStatusDescriptor#{{operationalStatus}}",
+  {% endif %}
+  "schoolCategories": [
+  {% set school_Cat = [] %}
+  {% if schoolCategory_0 != '' %}
+    {% set _= school_Cat.append(schoolCategory_0) %}
+  {% endif %}
+  {% if schoolCategory_1 != '' %}
+    {% set _= school_Cat.append(schoolCategory_1) %}
+  {% endif %}
+  {% if schoolCategory_2 != '' %}
+    {% set _= school_Cat.append(schoolCategory_2) %}
+  {% endif %}
+  {%- for schoolCategory in school_Cat -%}
+    {
+      "schoolCategoryDescriptor": "{{namespace}}/SchoolCategoryDescriptor#{{schoolCategory}}"
+    }
+  {%- if not loop.last -%},
+  {%- else %}{% endif %}{%- endfor -%}
+  ],
+  {%if schoolType != '' %}
+  "schoolTypeDescriptor": "{{namespace}}/SchoolTypeDescriptor#{{schoolType}}",
+  {% endif %}
+  "shortNameOfInstitution": "{{shortNameOfInstitution}}",
+  {%if titleIPartASchoolDesignation != '' %}
+  "titleIPartASchoolDesignationDescriptor": "{{namespace}}/TitleIPartASchoolDesignationDescriptor#{{titleIPartASchoolDesignation}}",
+  {% endif %}
+  "webSite": "{{webSite}}"
+}
+{% endif %}

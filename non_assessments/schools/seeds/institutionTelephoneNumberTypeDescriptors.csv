@@ -1,0 +1,5 @@
+codeValue,description,namespace,shortDescription
+Main,Main,uri://ed-fi.org/InstitutionTelephoneNumberTypeDescriptor,Main
+Fax,Fax,uri://ed-fi.org/InstitutionTelephoneNumberTypeDescriptor,Fax
+Other,Other,uri://ed-fi.org/InstitutionTelephoneNumberTypeDescriptor,Other
+Administrative,Administrative,uri://ed-fi.org/InstitutionTelephoneNumberTypeDescriptor,Administrative

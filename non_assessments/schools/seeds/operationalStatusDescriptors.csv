@@ -1,0 +1,5 @@
+codeValue,description,namespace,shortDescription
+Active,Active,uri://ed-fi.org/OperationalStatusDescriptor,Active
+Inactive,Inactive,uri://ed-fi.org/OperationalStatusDescriptor,Inactive
+New,New,uri://ed-fi.org/OperationalStatusDescriptor,New
+Reopened,Reopened,uri://ed-fi.org/OperationalStatusDescriptor,Reopened
