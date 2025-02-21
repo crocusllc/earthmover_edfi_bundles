@@ -73,8 +73,3 @@ EdFi Model
 ![alt text](edfimodel.jpg)
 
 The further breakdown of the subjects is also captured using Objective Assessments using the parent Objective Relation shown in the hierarchy. 
-
-
-### Other mapping decisions  
-- using **School_Attend_Code** for the studentAssessmentEducationOrganizationAssociation entity.
-
