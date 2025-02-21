@@ -1,0 +1,4 @@
+codeValue,description,namespace,shortDescription,minScore,maxScore
+Scale Score,The assessment is reported using a scale score.,uri://act.org,Scale Score,1,30
+Raw Score,The assessment is reported using performance levels.,uri://act.org,Raw Score,0,30
+National Norms Score,The assessment is reported using a national norm score.,uri://act.org,National Norms Score,0,100

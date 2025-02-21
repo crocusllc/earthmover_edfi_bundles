@@ -1,0 +1,24 @@
+identificationCode,assessmentIdentifier,namespace,description,codeValue,assessmentReportingMethodDescriptor,parenIdentifier
+Eng,PreACT,uri://act.org,English Scale Score,English,Scale Score,
+Mat,PreACT,uri://act.org,Mathematics Scale Score,Mathematics,Scale Score,
+Rdg,PreACT,uri://act.org,Reading Scale Score,Reading,Scale Score,
+Sci,PreACT,uri://act.org,Science Scale Score,Science,Scale Score,
+Mat,PreACT,uri://act.org,Mathematics Scale Score,Mathematics,Scale Score,
+Sci,PreACT,uri://act.org,Science Scale Score,Science,Scale Score,
+E_Earn_Prod,PreACT,uri://act.org,Production of Writing Raw Score,English,Raw Score,Eng
+E_Earn_Knlg,PreACT,uri://act.org,Knowledge of Language Raw Score,English,Raw Score,Eng
+E_Earn_Conv,PreACT,uri://act.org,Conventions of Standard English Raw Score,English,Raw Score,Eng
+M_Earn_Higher,PreACT,uri://act.org,Preparing for Higher Math Raw Score,Mathematics,Raw Score,Mat
+M_Earn_NumQ,PreACT,uri://act.org,Number & Quantity Raw Score,Mathematics,Raw Score,Mat
+M_Earn_Alg,PreACT,uri://act.org,Algebra Raw Score,Mathematics,Raw Score,Mat
+M_Earn_Func,PreACT,uri://act.org,Functions Raw Score,Mathematics,Raw Score,Mat
+M_Earn_Geom,PreACT,uri://act.org,Geometry Raw Score,Mathematics,Raw Score,Mat
+M_Earn_Stat,PreACT,uri://act.org,Statistics & Probability Raw Score,Mathematics,Raw Score,Mat
+M_Earn_Essen,PreACT,uri://act.org,Integrating Essential Skills Raw Score,Mathematics,Raw Score,Mat
+M_Earn_Mod,PreACT,uri://act.org,Modeling Raw Score,Mathematics,Raw Score,Mat
+R_Earn_Ideas,PreACT,uri://act.org,Key Ideas & Details Raw Score,Reading,Raw Score,Rdg
+R_Earn_Struc,PreACT,uri://act.org,Craft & Structure Raw Score,Reading,Raw Score,Rdg
+R_Earn_Knlg,PreACT,uri://act.org,Integration of Knowledge & Ideas Raw Score,Reading,Raw Score,Rdg
+S_Earn_Data,PreACT,uri://act.org,Interpretation of Data Raw Score,Science,Raw Score,Sci
+S_Earn_Inv,PreACT,uri://act.org,Scientific Investigation Raw Score,Science,Raw Score,Sci
+S_Earn_Eval,PreACT,uri://act.org,Evaluation of Models Inferences & Experimental Results Raw Score,Science,Raw Score,Sci

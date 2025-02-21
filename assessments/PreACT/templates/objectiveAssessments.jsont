@@ -1,0 +1,29 @@
+{
+    "identificationCode": "{{identificationCode}}",
+    
+    "assessmentReference": {
+      "assessmentIdentifier": "{{assessmentIdentifier}}",
+      "namespace": "{{namespace}}"
+    },
+    {% if parentIdentifier is not none and parentIdentifier | length %}
+     "parentObjectiveAssessmentReference": {
+      "assessmentIdentifier": "{{assessmentIdentifier}}",
+      "identificationCode": "{{parentIdentifier}}",
+      "namespace": "{{namespace}}"
+     },
+    {% endif %}
+    "description": "{{description}}",
+    "academicSubjectDescriptor": "{{descriptorNamespace}}/AcademicSubjectDescriptor#{{codeValue}}",
+    "scores": [
+      {
+        "assessmentReportingMethodDescriptor": "{{namespace}}/AssessmentReportingMethodDescriptor#{{assessmentReportingMethodDescriptor}}",
+        "resultDatatypeTypeDescriptor": "{{descriptorNamespace}}/ResultDatatypeTypeDescriptor#Integer",
+        "minimumScore":"{{ minimumScore | string }}",
+        "maximumScore":"{{ maximumScore | string}}"
+      }
+    ],
+    "performanceLevels": [
+       {{ performance_json }}
+ 
+    ]
+  }
