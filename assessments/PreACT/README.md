@@ -14,6 +14,7 @@
 - uri://act.org/AssessmentReportingMethodDescriptor#Low Scale Score
 - uri://act.org/AssessmentReportingMethodDescriptor#Predicted High Scale Score
 - uri://act.org/AssessmentReportingMethodDescriptor#Predicted Low Scale Score
+- uri://act.org/AssessmentReportingMethodDescriptor#Progress Toward Career Readiness Indicator
   
 # Hierarchy
 Here is the Overall Hierarchy
