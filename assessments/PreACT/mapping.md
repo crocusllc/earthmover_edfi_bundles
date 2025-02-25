@@ -30,7 +30,7 @@ The expansion of the hierarchy of the each Objective
 
 Here is a Visualization of the entire hierarchy 
 
-![alt text](TheEntireHierarchy.jpg)
+![alt text](TheEntireHierarchy.png)
 
 ## StudentAssessmentEducationOrganizationAssociation
 -School_Reported_Code is mapped for this entity. I am not really sure if that is the right field , there doesn't seem to be district code anywhere in the file. 
