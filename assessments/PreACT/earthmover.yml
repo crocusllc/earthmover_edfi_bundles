@@ -35,7 +35,6 @@ sources:
     header_rows: 1
 
   input:
-    debug: true
     file: ${INPUT_FILE}
     header_rows: 1
     type: fixedwidth

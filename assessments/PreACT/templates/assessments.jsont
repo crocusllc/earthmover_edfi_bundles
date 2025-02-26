@@ -24,6 +24,10 @@
         "resultDatatypeTypeDescriptor": "{{descriptor_namespace}}/ResultDatatypeTypeDescriptor#Integer"
       },
       {
+        "assessmentReportingMethodDescriptor": "uri://act.org/Assessment/AssessmentReportingMethodDescriptor#Raw Score",
+        "resultDatatypeTypeDescriptor": "{{descriptor_namespace}}/ResultDatatypeTypeDescriptor#Integer"
+      },
+      {
         "assessmentReportingMethodDescriptor": "uri://act.org/Assessment/AssessmentReportingMethodDescriptor#High Scale Score",
         "maximumScore": "30",
         "minimumScore": "1",
