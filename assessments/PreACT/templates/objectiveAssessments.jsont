@@ -28,19 +28,17 @@
       },
       {
         "assessmentReportingMethodDescriptor": "uri://act.org/Assessment/AssessmentReportingMethodDescriptor#Raw Score",
-        "maximumScore": "30",
-        "minimumScore": "0",
         "resultDatatypeTypeDescriptor": "{{descriptor_namespace}}/ResultDatatypeTypeDescriptor#Integer"
       },
       {
         "assessmentReportingMethodDescriptor": "uri://act.org/Assessment/AssessmentReportingMethodDescriptor#Low Scale Score",
-        "maximumScore": "36",
+        "maximumScore": "30",
         "minimumScore": "1",
         "resultDatatypeTypeDescriptor": "{{descriptor_namespace}}/ResultDatatypeTypeDescriptor#Integer"
       },
-            {
+      {
         "assessmentReportingMethodDescriptor": "uri://act.org/Assessment/AssessmentReportingMethodDescriptor#High Scale Score",
-        "maximumScore": "36",
+        "maximumScore": "30",
         "minimumScore": "1",
         "resultDatatypeTypeDescriptor": "{{descriptor_namespace}}/ResultDatatypeTypeDescriptor#Integer"
       },
@@ -57,15 +55,6 @@
         "resultDatatypeTypeDescriptor": "{{descriptor_namespace}}/ResultDatatypeTypeDescriptor#Integer"
       }
     ]
-    {% if has_pls|string == 'True' %}
-    ,"performanceLevels": [
-      {
-        "assessmentReportingMethodDescriptor": "uri://act.org/Assessment/AssessmentReportingMethodDescriptor#Progress Toward Career Readiness Indicator",
-        "maximumScore": "4",
-        "minimumScore": "1",
-        "performanceLevelDescriptor": "uri://act.org/PerformanceLevelDescriptor#At or Above Readiness Benchmark"
-      }
-    ]
-    {% endif %}
+
 
   }

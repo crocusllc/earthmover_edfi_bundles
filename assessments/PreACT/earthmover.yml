@@ -35,14 +35,16 @@ sources:
     header_rows: 1
 
   input:
-    debug: true
-    # THIS FILE DOES NOT EXIST; IT MUST BE SUPPLIED BY THE USER!
     file: ${INPUT_FILE}
     header_rows: 1
-    # See the accompanying bundle_metadata.json for a list of required columns for this file
-    # Or see data/sample_anonymized_file.csv
-
-
+    type: fixedwidth
+    colspec_file: ./seeds/colspecs.csv   # required
+    colspec_headers:
+      start: start_index
+      end: end_index
+      width: field_length
+      name: field_name                # required if `start` or `end` is not provided
+  
 
 transformations:
   input:
@@ -50,7 +52,6 @@ transformations:
     operations: []
 
   clean_results:
-    debug: true
     source: $transformations.input
     operations:
       - operation: duplicate_columns
@@ -60,7 +61,7 @@ transformations:
           
       - operation: add_columns
         columns:
-          schoolYear: ${API_YEAR}
+          schoolYear: "{% raw %}{{ Test_Dte[:4] if (Test_Dte[4:6]|int < 6) else (Test_Dte[:4]|int + 1) }}{% endraw %}"
           assessmentIdentifier: "PreACT"
           namespace: "uri://act.org/Assessment"
           descriptor_namespace: ${DESCRIPTOR_NAMESPACE}
@@ -103,6 +104,9 @@ transformations:
         column: administrationDate
         from_format: "%Y%m%d"
         to_format: "%Y-%m-%d"
+
+
+
 
   academic_subject_descriptors:
     source: $sources.academicSubjectDescriptors
@@ -202,4 +206,8 @@ destinations:
   studentAssessments:
     source: $transformations.clean_results
     template: ./templates/studentAssessments.jsont
+    extension: jsonl
+  studentAssessmentEducationOrganizationAssociations:
+    source: $transformations.clean_results
+    template: ./templates/studentAssessmentEducationOrganizationAssociations.jsont
     extension: jsonl
