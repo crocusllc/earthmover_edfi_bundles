@@ -36,14 +36,15 @@ sources:
 
   input:
     file: ${INPUT_FILE}
-    header_rows: 1
-    type: fixedwidth
-    colspec_file: ./seeds/colspecs.csv   # required
+    colspec_file: ./fwf_to_csv_xwalks/colspecs.csv   # required
     colspec_headers:
-      start: start_index
-      end: end_index
-      width: field_length
-      name: field_name               # required if `start` or `end` is not provided
+      name: field_name              # required
+      start: start_index                 # required if `width` is not provided
+      end: end_index                      # required if `width` is not provided
+      width: field_length                 # required if `start` or `end` is not provided
+    type: fixedwidth               # required if `file` does not end with '.txt'
+    header_rows: 0
+
 transformations:
   input:
     source: $sources.input

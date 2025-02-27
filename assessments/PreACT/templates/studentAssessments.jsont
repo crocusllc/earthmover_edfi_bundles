@@ -32,7 +32,8 @@
     ('Low Scale Score', 'Integer', Eng_Low),
     ('High Scale Score', 'Integer', Eng_High),
     ('Low Predicted Score', 'Integer', Pred_ACT_Eng_Low),
-    ('High Predicted Score', 'Integer', Pred_ACT_Eng_High)
+    ('High Predicted Score', 'Integer', Pred_ACT_Eng_High),
+    ('Raw Score','Integer',Eng_Raw)
   ]],
   ['PRE_ACT_Mat', [
     ('Scale Score', 'Integer', Mth),
@@ -40,7 +41,8 @@
     ('Low Scale Score', 'Integer', Mth_Low),
     ('High Scale Score', 'Integer', Mth_High),
     ('Low Predicted Score', 'Integer', Pred_ACT_Mth_Low),
-    ('High Predicted Score', 'Integer', Pred_ACT_Mth_High)
+    ('High Predicted Score', 'Integer', Pred_ACT_Mth_High),
+    ('Raw Score','Integer',Math_Raw)
   ]],
   ['PRE_ACT_Rdg', [
     ('Scale Score', 'Integer', Rdg),
@@ -48,7 +50,8 @@
     ('Low Scale Score', 'Integer', Rdg_Low),
     ('High Scale Score', 'Integer', Rdg_High),
     ('Low Predicted Score', 'Integer', Pred_ACT_Rdg_Low),
-    ('High Predicted Score', 'Integer', Pred_ACT_Rdg_High)
+    ('High Predicted Score', 'Integer', Pred_ACT_Rdg_High),
+    ('Raw Score','Integer',Read_Raw)
   ]],
   ['PRE_ACT_Sci', [
     ('Scale Score', 'Integer', Sci),
@@ -56,7 +59,8 @@
     ('Low Scale Score', 'Integer', Sci_Low),
     ('High Scale Score', 'Integer', Sci_High),
     ('Low Predicted Score', 'Integer', Pred_ACT_Sci_Low),
-    ('High Predicted Score', 'Integer', Pred_ACT_Sci_High)
+    ('High Predicted Score', 'Integer', Pred_ACT_Sci_High),
+    ('Raw Score','Integer',Sci_Raw)
   ]],
   ['PRE_ACT_E_Earn_Prod', [('Raw Score', 'Integer', E_Earn_Prod)]],
   ['PRE_ACT_E_Earn_Knlg', [('Raw Score', 'Integer', E_Earn_Knlg)]],

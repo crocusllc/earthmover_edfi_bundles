@@ -195,10 +195,10 @@ start_index,end_index,field_length,field_name
 835,872,36,Math_Itm_Scores
 875,901,25,Read_Itm_Scores
 900,931,30,Sci_Itm_Scores
-930,933,2,Eng_Raw
-932,935,2,Math_Raw
-934,937,2,Read_Raw
-936,939,2,Sci_Raw
+930,932,2,Eng_Raw
+932,934,2,Math_Raw
+934,936,2,Read_Raw
+936,938,2,Sci_Raw
 946,987,40,Address1
 986,1012,25,City
 1011,1014,2,State
