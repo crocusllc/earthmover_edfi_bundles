@@ -1,80 +1,45 @@
-# Assessment Details
+* **Title**: PreACT Assessment - API 7.1
+* **Description**: PreACT is a multiple-choice assessment designed for 10th grade students that provides:
+  - Early practice experience for the ACT test
+  - Assessment of achievement in English, Mathematics, Reading, and Science
+  - Insights to help students identify academic strengths and areas for improvement
+  - Guidance for high school coursework planning and career exploration
+* **API version**: 7.1
+* **Submitter name**: Bruk Woldearegay
+* **Submitter organization**: CrocusLLC
+To run this bundle, please add your own source file<code>data/PreACT_Data_File.csv</code>
 
-## Assessment Identifier(s)
-- PreACT (the name of the assessment)
+This bundle works with PreACT files in the format provided by the assessment vendor (namely fixed-width .txt files). 
 
-## Assessment Family
-- PreACT
+## CLI Parameters
 
-## Assessment Score Method Descriptors
-- uri://act.org/AssessmentReportingMethodDescriptor#Scale Score
-- uri://act.org/AssessmentReportingMethodDescriptor#Raw Score
-- uri://act.org/AssessmentReportingMethodDescriptor#National Norms Score
-- uri://act.org/AssessmentReportingMethodDescriptor#High Scale Score
-- uri://act.org/AssessmentReportingMethodDescriptor#Low Scale Score
-- uri://act.org/AssessmentReportingMethodDescriptor#Predicted High Scale Score
-- uri://act.org/AssessmentReportingMethodDescriptor#Predicted Low Scale Score
-- uri://act.org/AssessmentReportingMethodDescriptor#Progress Toward Career Readiness Indicator
-  
-# Hierarchy
-Here is the Overall Hierarchy
-![alt text](overallStructure.jpg)
-The expansion of the hierarchy of the each Objective 
-## Math
-![alt text](Math.png)
-## Reading
-![alt text](Reading.png)
-## Science
-![alt text](Science.png)
-## English
-![alt text](Eng.png)
+### Required
+- **OUTPUT_DIR**: Where output files will be written
+- **INPUT_FILE**: The assessment file to be mapped
+- **STUDENT_ID_NAME**: Which column to use as the Ed-Fi `studentUniqueId`. Can be one of the native columns in the assessment file (e.g., `Stu_ID_Num`) when the bundle is run directly. Otherwise leave the default value `edFi_studentUniqueID` 
+- **POSSIBLE_STUDENT_ID_COLUMNS**: This should contain all the possible native student id columns in the assessment file( e.g., `Stu_ID_Num`) . 
+### Optional
+- **DESCRIPTOR_NAMESPACE**: This should be the default namespace for descriptors such as ResultDatatypeTypeDescriptor . The default value is : uri://ed-fi.org
 
-Here is a Visualization of the entire hierarchy 
+### Examples
 
-![alt text](TheEntireHierarchy.png)
+Using an ID column from the assessment file:
+```bash
+earthmover run -c ./earthmover.yaml -p '{
+  "INPUT_FILE": "path/to/PreACT_Data_File.csv",
+  "OUTPUT_DIR": "./output",
+  "STUDENT_ID_NAME": "Stu_ID_Num"
+}'
+```
 
-## StudentAssessmentEducationOrganizationAssociation
--School_Reported_Code is mapped for this entity. I am not really sure if that is the right field , there doesn't seem to be district code anywhere in the file. 
+Once you have inspected the output JSONL for issues, check the settings in lightbeam.yaml and transmit them to your Ed-Fi API with:
 
-## Reasoning
-The PreACT Composite assessment has objectives such as:
-- Mathematics
-  - Preparing for Higher Math
-  - Number & Quantity
-  - Algebra
-  - Functions
-  - Geometry
-  - Statistics & Probability
-  - Integrating Essential Skills
-  - Modeling 
-- English 
-  - Production of Writing
-  - Knowledge of Language
-  - Conventions of Standard English
-- Science 
-  - Interpretation of Data
-  - Scientific Investigation
-  - Evaluation of Models, Inferences & Experimental Results
-- Reading
-  - Key Ideas & Details
-  - Craft & Structure
-  - Integration of Knowledge & Ideas
-The PreACT-STEM has the following objectives: 
-- Mathematics
-  - Preparing for Higher Math
-  - Number & Quantity
-  - Algebra
-  - Functions
-  - Geometry
-  - Statistics & Probability
-  - Integrating Essential Skills
-  - Modeling 
-- Science 
-  - Interpretation of Data
-  - Scientific Investigation
-  - Evaluation of Models, Inferences & Experimental Results
-
-EdFi Model 
-![alt text](edfimodel.jpg)
-
-The further breakdown of the subjects is also captured using Objective Assessments using the parent Objective Relation shown in the hierarchy. 
+```bash
+lightbeam validate+send -c ./lightbeam.yaml -p '{
+  "DATA_DIR": "./output/",
+  "API_YEAR": "yourAPIYear",
+  "BASE_URL": "yourURL",
+  "EDFI_API_CLIENT_ID": "yourID",
+  "EDFI_API_CLIENT_SECRET": "yourSecret"
+}'
+```
