@@ -1,0 +1,949 @@
+Processing entity type: calendars
+  Processing year: 2007 for calendars
+    Found files:
+      - calendars.jsonl
+    Running lightbeam validation for calendars year 2007
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2007
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2007
+selector:
+    ✅ Validation successful for calendars year 2007
+    -----------------------------------------
+  Processing year: 2008 for calendars
+    Found files:
+      - calendars.jsonl
+    Running lightbeam validation for calendars year 2008
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2008
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2008
+selector:
+    ✅ Validation successful for calendars year 2008
+    -----------------------------------------
+  Processing year: 2009 for calendars
+    Found files:
+      - calendars.jsonl
+    Running lightbeam validation for calendars year 2009
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2009
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2009
+selector:
+    ✅ Validation successful for calendars year 2009
+    -----------------------------------------
+  Processing year: 2012 for calendars
+    Found files:
+      - calendars.jsonl
+    Running lightbeam validation for calendars year 2012
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2012
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2012
+selector:
+    ✅ Validation successful for calendars year 2012
+    -----------------------------------------
+  Processing year: 2013 for calendars
+    Found files:
+      - calendars.jsonl
+    Running lightbeam validation for calendars year 2013
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2013
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2013
+selector:
+    ✅ Validation successful for calendars year 2013
+    -----------------------------------------
+  Processing year: 2014 for calendars
+    Found files:
+      - calendars.jsonl
+    Running lightbeam validation for calendars year 2014
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2014
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2014
+selector:
+    ✅ Validation successful for calendars year 2014
+    -----------------------------------------
+  Processing year: 2015 for calendars
+    Found files:
+      - calendars.jsonl
+    Running lightbeam validation for calendars year 2015
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2015
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2015
+selector:
+    ✅ Validation successful for calendars year 2015
+    -----------------------------------------
+  Processing year: 2016 for calendars
+    Found files:
+      - calendars.jsonl
+    Running lightbeam validation for calendars year 2016
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2016
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2016
+selector:
+    ✅ Validation successful for calendars year 2016
+    -----------------------------------------
+  Processing year: 2017 for calendars
+    Found files:
+      - calendars.jsonl
+    Running lightbeam validation for calendars year 2017
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2017
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2017
+selector:
+    ✅ Validation successful for calendars year 2017
+    -----------------------------------------
+  Processing year: 2018 for calendars
+    Found files:
+      - calendars.jsonl
+    Running lightbeam validation for calendars year 2018
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2018
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2018
+selector:
+    ✅ Validation successful for calendars year 2018
+    -----------------------------------------
+  Processing year: 2019 for calendars
+    Found files:
+      - calendars.jsonl
+    Running lightbeam validation for calendars year 2019
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2019
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2019
+selector:
+    ✅ Validation successful for calendars year 2019
+    -----------------------------------------
+  Processing year: 2020 for calendars
+    Found files:
+      - calendars.jsonl
+    Running lightbeam validation for calendars year 2020
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2020
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2020
+selector:
+    ✅ Validation successful for calendars year 2020
+    -----------------------------------------
+  Processing year: 2021 for calendars
+    Found files:
+      - calendars.jsonl
+    Running lightbeam validation for calendars year 2021
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2021
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2021
+selector:
+    ✅ Validation successful for calendars year 2021
+    -----------------------------------------
+  Processing year: 2022 for calendars
+    Found files:
+      - calendars.jsonl
+    Running lightbeam validation for calendars year 2022
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2022
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2022
+selector:
+    ✅ Validation successful for calendars year 2022
+    -----------------------------------------
+  Processing year: 2023 for calendars
+    Found files:
+      - calendars.jsonl
+    Running lightbeam validation for calendars year 2023
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2023
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2023
+selector:
+    ✅ Validation successful for calendars year 2023
+    -----------------------------------------
+  Processing year: 2024 for calendars
+    Found files:
+      - calendars.jsonl
+    Running lightbeam validation for calendars year 2024
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2024
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2024
+selector:
+    ✅ Validation successful for calendars year 2024
+    -----------------------------------------
+  Processing year: 2025 for calendars
+    Found files:
+      - calendars.jsonl
+    Running lightbeam validation for calendars year 2025
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2025
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/calendars/2025
+selector:
+    ✅ Validation successful for calendars year 2025
+    -----------------------------------------
+Processing entity type: staffs
+  Processing year: 1999 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 1999
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/1999
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/1999
+selector:
+    ✅ Validation successful for staffs year 1999
+    -----------------------------------------
+  Processing year: 2000 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2000
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2000
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2000
+selector:
+    ✅ Validation successful for staffs year 2000
+    -----------------------------------------
+  Processing year: 2001 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2001
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2001
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2001
+selector:
+    ✅ Validation successful for staffs year 2001
+    -----------------------------------------
+  Processing year: 2002 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2002
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2002
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2002
+selector:
+    ✅ Validation successful for staffs year 2002
+    -----------------------------------------
+  Processing year: 2003 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2003
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2003
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2003
+selector:
+    ✅ Validation successful for staffs year 2003
+    -----------------------------------------
+  Processing year: 2004 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2004
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2004
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2004
+selector:
+    ✅ Validation successful for staffs year 2004
+    -----------------------------------------
+  Processing year: 2005 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2005
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2005
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2005
+selector:
+    ✅ Validation successful for staffs year 2005
+    -----------------------------------------
+  Processing year: 2006 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2006
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2006
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2006
+selector:
+    ✅ Validation successful for staffs year 2006
+    -----------------------------------------
+  Processing year: 2007 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2007
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2007
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2007
+selector:
+    ✅ Validation successful for staffs year 2007
+    -----------------------------------------
+  Processing year: 2008 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2008
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2008
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2008
+selector:
+    ✅ Validation successful for staffs year 2008
+    -----------------------------------------
+  Processing year: 2009 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2009
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2009
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2009
+selector:
+    ✅ Validation successful for staffs year 2009
+    -----------------------------------------
+  Processing year: 2010 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2010
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2010
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2010
+selector:
+    ✅ Validation successful for staffs year 2010
+    -----------------------------------------
+  Processing year: 2011 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2011
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2011
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2011
+selector:
+    ✅ Validation successful for staffs year 2011
+    -----------------------------------------
+  Processing year: 2012 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2012
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2012
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2012
+selector:
+    ✅ Validation successful for staffs year 2012
+    -----------------------------------------
+  Processing year: 2013 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2013
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2013
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2013
+selector:
+    ✅ Validation successful for staffs year 2013
+    -----------------------------------------
+  Processing year: 2014 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2014
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2014
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2014
+selector:
+    ✅ Validation successful for staffs year 2014
+    -----------------------------------------
+  Processing year: 2015 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2015
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2015
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2015
+selector:
+    ✅ Validation successful for staffs year 2015
+    -----------------------------------------
+  Processing year: 2016 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2016
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2016
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2016
+selector:
+    ✅ Validation successful for staffs year 2016
+    -----------------------------------------
+  Processing year: 2017 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2017
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2017
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2017
+selector:
+    ✅ Validation successful for staffs year 2017
+    -----------------------------------------
+  Processing year: 2018 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2018
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2018
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2018
+selector:
+    ✅ Validation successful for staffs year 2018
+    -----------------------------------------
+  Processing year: 2019 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2019
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2019
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2019
+selector:
+    ✅ Validation successful for staffs year 2019
+    -----------------------------------------
+  Processing year: 2020 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2020
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2020
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2020
+selector:
+    ✅ Validation successful for staffs year 2020
+    -----------------------------------------
+  Processing year: 2021 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2021
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2021
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2021
+selector:
+    ✅ Validation successful for staffs year 2021
+    -----------------------------------------
+  Processing year: 2022 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2022
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2022
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2022
+selector:
+    ✅ Validation successful for staffs year 2022
+    -----------------------------------------
+  Processing year: 2023 for staffs
+    Found files:
+      - staffs.jsonl
+    Running lightbeam validation for staffs year 2023
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2023
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/staffs/2023
+selector:
+    ✅ Validation successful for staffs year 2023
+    -----------------------------------------
+Processing entity type: stateEducationAgencies
+  Processing year: 1959 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1959
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1959
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1959
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1959
+    -----------------------------------------
+  Processing year: 1960 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1960
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1960
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1960
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1960
+    -----------------------------------------
+  Processing year: 1961 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1961
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1961
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1961
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1961
+    -----------------------------------------
+  Processing year: 1962 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1962
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1962
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1962
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1962
+    -----------------------------------------
+  Processing year: 1963 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1963
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1963
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1963
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1963
+    -----------------------------------------
+  Processing year: 1964 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1964
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1964
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1964
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1964
+    -----------------------------------------
+  Processing year: 1965 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1965
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1965
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1965
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1965
+    -----------------------------------------
+  Processing year: 1966 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1966
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1966
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1966
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1966
+    -----------------------------------------
+  Processing year: 1967 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1967
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1967
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1967
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1967
+    -----------------------------------------
+  Processing year: 1968 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1968
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1968
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1968
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1968
+    -----------------------------------------
+  Processing year: 1969 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1969
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1969
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1969
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1969
+    -----------------------------------------
+  Processing year: 1970 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1970
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1970
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1970
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1970
+    -----------------------------------------
+  Processing year: 1971 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1971
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1971
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1971
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1971
+    -----------------------------------------
+  Processing year: 1972 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1972
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1972
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1972
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1972
+    -----------------------------------------
+  Processing year: 1973 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1973
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1973
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1973
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1973
+    -----------------------------------------
+  Processing year: 1974 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1974
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1974
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1974
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1974
+    -----------------------------------------
+  Processing year: 1975 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1975
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1975
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1975
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1975
+    -----------------------------------------
+  Processing year: 1976 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1976
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1976
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1976
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1976
+    -----------------------------------------
+  Processing year: 1977 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1977
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1977
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1977
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1977
+    -----------------------------------------
+  Processing year: 1978 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1978
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1978
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1978
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1978
+    -----------------------------------------
+  Processing year: 1979 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1979
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1979
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1979
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1979
+    -----------------------------------------
+  Processing year: 1980 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1980
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1980
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1980
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1980
+    -----------------------------------------
+  Processing year: 1981 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1981
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1981
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1981
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1981
+    -----------------------------------------
+  Processing year: 1982 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1982
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1982
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1982
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1982
+    -----------------------------------------
+  Processing year: 1983 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1983
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1983
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1983
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1983
+    -----------------------------------------
+  Processing year: 1984 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1984
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1984
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1984
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1984
+    -----------------------------------------
+  Processing year: 1985 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1985
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1985
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1985
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1985
+    -----------------------------------------
+  Processing year: 1986 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1986
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1986
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1986
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1986
+    -----------------------------------------
+  Processing year: 1987 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1987
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1987
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1987
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1987
+    -----------------------------------------
+  Processing year: 1988 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1988
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1988
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1988
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1988
+    -----------------------------------------
+  Processing year: 1989 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1989
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1989
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1989
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1989
+    -----------------------------------------
+  Processing year: 1990 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1990
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1990
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1990
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1990
+    -----------------------------------------
+  Processing year: 1991 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1991
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1991
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1991
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1991
+    -----------------------------------------
+  Processing year: 1992 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1992
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1992
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1992
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1992
+    -----------------------------------------
+  Processing year: 1993 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1993
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1993
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1993
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1993
+    -----------------------------------------
+  Processing year: 1994 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1994
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1994
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1994
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1994
+    -----------------------------------------
+  Processing year: 1995 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1995
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1995
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1995
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1995
+    -----------------------------------------
+  Processing year: 1996 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1996
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1996
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1996
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1996
+    -----------------------------------------
+  Processing year: 1997 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1997
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1997
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1997
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1997
+    -----------------------------------------
+  Processing year: 1998 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1998
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1998
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1998
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1998
+    -----------------------------------------
+  Processing year: 1999 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 1999
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1999
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/1999
+selector:
+    ✅ Validation successful for stateEducationAgencies year 1999
+    -----------------------------------------
+  Processing year: 2000 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2000
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2000
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2000
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2000
+    -----------------------------------------
+  Processing year: 2001 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2001
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2001
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2001
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2001
+    -----------------------------------------
+  Processing year: 2002 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2002
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2002
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2002
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2002
+    -----------------------------------------
+  Processing year: 2003 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2003
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2003
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2003
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2003
+    -----------------------------------------
+  Processing year: 2004 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2004
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2004
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2004
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2004
+    -----------------------------------------
+  Processing year: 2005 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2005
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2005
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2005
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2005
+    -----------------------------------------
+  Processing year: 2006 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2006
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2006
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2006
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2006
+    -----------------------------------------
+  Processing year: 2007 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2007
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2007
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2007
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2007
+    -----------------------------------------
+  Processing year: 2008 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2008
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2008
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2008
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2008
+    -----------------------------------------
+  Processing year: 2009 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2009
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2009
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2009
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2009
+    -----------------------------------------
+  Processing year: 2010 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2010
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2010
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2010
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2010
+    -----------------------------------------
+  Processing year: 2011 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2011
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2011
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2011
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2011
+    -----------------------------------------
+  Processing year: 2012 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2012
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2012
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2012
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2012
+    -----------------------------------------
+  Processing year: 2013 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2013
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2013
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2013
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2013
+    -----------------------------------------
+  Processing year: 2014 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2014
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2014
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2014
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2014
+    -----------------------------------------
+  Processing year: 2015 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2015
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2015
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2015
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2015
+    -----------------------------------------
+  Processing year: 2016 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2016
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2016
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2016
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2016
+    -----------------------------------------
+  Processing year: 2017 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2017
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2017
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2017
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2017
+    -----------------------------------------
+  Processing year: 2018 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2018
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2018
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2018
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2018
+    -----------------------------------------
+  Processing year: 2019 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2019
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2019
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2019
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2019
+    -----------------------------------------
+  Processing year: 2020 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2020
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2020
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2020
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2020
+    -----------------------------------------
+  Processing year: 2021 for stateEducationAgencies
+    Found files:
+      - stateEducationAgencies.jsonl
+    Running lightbeam validation for stateEducationAgencies year 2021
+    Using config with path: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2021
+data_dir: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/output/stateEducationAgencies/2021
+selector:
+    ✅ Validation successful for stateEducationAgencies year 2021
+    -----------------------------------------
+All entity validations complete.
