@@ -3,9 +3,12 @@
 
 # S3 bucket and path prefix
 S3_BUCKET="stadium-boston-airflow-dev-external"
-S3_BASE_PATH="boston/historic"
 
-# Colors for output
+# the path should look like this : s3://stadium-boston-airflow-dev-external/boston/historic/2025/20250314/calendars/
+# where the year is current year and the date is current date 
+S3_BASE_PATH="boston/historic"
+# S3_BASE_PATH="boston/historic/2025/20250314/calendars"
+
 GREEN='\033[0;32m'
 YELLOW='\033[0;33m'
 BLUE='\033[0;34m'
@@ -46,17 +49,32 @@ for YEAR in $YEARS; do
     DATES=$(aws s3 ls "s3://$S3_BUCKET/$S3_BASE_PATH/$YEAR/" | grep PRE | awk '{print $2}' | sed 's/\///')
     
     if [ -z "$DATES" ]; then
-        echo "  No dates found for this year."
+        #echo "  No dates found for this year."
+        continue
+    fi
+    # only list the files for the year 2012 and later
+    if [ "$YEAR" -lt 2010 ]; then
+        #echo "  Skipping year $YEAR as it is less than 2012."
         continue
     fi
     
+    # find the most recent date 
+    # DATES=$(echo "$DATES" | sort -r | head -n 1)
+    MOST_RECENT_DATE=$(echo "$DATES" | sort -r | head -n 1)
     # Loop through each date
     for DATE in $DATES; do
-        echo -e "  ${GREEN}Date: $DATE${NC}"
         
         # List Ed-Fi resources for this date
         RESOURCES=$(aws s3 ls "s3://$S3_BUCKET/$S3_BASE_PATH/$YEAR/$DATE/" | grep PRE | awk '{print $2}' | sed 's/\///')
         
+        # if $DATE is not the most recent date then skip the resource
+        if [ "$DATE" != "$MOST_RECENT_DATE" ]; then
+          #  echo "    Skipping date $DATE as it is not the most recent date."
+            continue
+        fi
+        echo -e "  ${GREEN}Date: $DATE${NC}"
+        
+
         if [ -z "$RESOURCES" ]; then
             echo "    No resources found for this date."
             continue

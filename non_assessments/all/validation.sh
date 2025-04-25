@@ -7,6 +7,12 @@ BASE_DIR="/home/bruk/code/boston/earthmover_edfi_bundles"
 LIGHTBEAM_CONFIG="${BASE_DIR}/non_assessments/all/lightbeam.yml"
 OUTPUT_DIR="${BASE_DIR}/non_assessments/all/output"
 
+# List of entity types to skip
+#SKIP_ENTITIES=(  ) 
+
+SKIP_ENTITIES=("calendarDates" "staffs" "disciplineIncidents" "classPeriods" "calendars" "localEducationAgencies" "sections" "studentParentAssociations"  ) 
+INCLUDE_YEARS=("2012" "2013" "2014" "2015" "2016" "2017" "2018" "2019" "2020" "2021" "2022" "2023" "2024") # Specify the years to include from 2012 to 2023
+
 # Check if output directory exists
 if [ ! -d "$OUTPUT_DIR" ]; then
     echo "Error: Output directory does not exist: $OUTPUT_DIR"
@@ -20,6 +26,8 @@ for entity_dir in "$OUTPUT_DIR"/*/ ; do
         entity_dir=${entity_dir%/}
         entity_type=$(basename "$entity_dir")
         echo "Processing entity type: $entity_type"
+
+      
         
         # Second loop: iterate through year directories under each entity type
         for year_dir in "$entity_dir"/*/ ; do
@@ -28,6 +36,16 @@ for entity_dir in "$OUTPUT_DIR"/*/ ; do
                 year_dir=${year_dir%/}
                 year=$(basename "$year_dir")
                 echo "  Processing year: $year for $entity_type"
+
+                #skip specific entity types
+                if [[ " ${SKIP_ENTITIES[@]} " =~ " ${entity_type} " ]]; then
+                    echo "    Skipping validation for $entity_type"
+                    continue
+                fi
+                if [[ ! " ${INCLUDE_YEARS[@]} " =~ " ${year} " ]]; then
+                    echo "    Skipping validation for $year"
+                    continue
+                fi
                 
                 # Find all JSONL files in the year directory
                 json_files=$(find "$year_dir" -name "*.jsonl" -type f)
@@ -70,6 +88,8 @@ for entity_dir in "$OUTPUT_DIR"/*/ ; do
                     "students") endpoint="students" ;;
                     "sections") endpoint="sections" ;;
                     "programs") endpoint="programs" ;;
+                    "studentParentAssociations") endpoint="studentParentAssociations" ;;
+
                     # Add more cases as needed
                 esac
                 

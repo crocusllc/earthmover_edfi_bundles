@@ -24,6 +24,8 @@ function get_edfi_resource_name() {
         "localEducationAgencies") echo "local_education_agencies" ;;
         "stateEducationAgencies") echo "state_education_agencies" ;;
         "educationOrganizations") echo "education_organizations" ;;
+        "calendarDates") echo "calendar_dates" ;;
+        "classPeriods") echo "class_periods" ;;
         "sections") echo "sections" ;;
         "programs") echo "programs" ;;
         "courseOfferings") echo "course_offerings" ;;
@@ -31,6 +33,10 @@ function get_edfi_resource_name() {
         "gradingPeriods") echo "grading_periods" ;;
         "sessions") echo "sessions" ;;
         "assessments") echo "assessments" ;;
+        "disciplineIncidents") echo "discipline_incidents" ;;
+        "educationOrganizationNetworks") echo "education_organization_networks" ;;
+        "educationServiceCenters") echo "education_service_centers" ;;
+        "studentParentAssociations") echo "student_parent_associations" ;;
         *) echo "${dir_name,,}" | sed 's/\([A-Z]\)/_\L\1/g' | sed 's/^_//' ;;
     esac
 }
@@ -50,7 +56,11 @@ function process_year_directory() {
     for json_file in "$year_dir"/*.json*; do
         if [[ -f "$json_file" ]]; then
             filename=$(basename "$json_file")
-            
+            #if the year is less than 2000 then skip the file
+            if [[ "$year" -lt 2000 ]]; then
+                echo "Skipping $filename as the year is less than 2000"
+                continue
+            fi
             # Construct S3 path
             s3_path="s3://$S3_BUCKET/$S3_BASE_PATH/$year/$TODAY/$edfi_resource/$filename"
             
