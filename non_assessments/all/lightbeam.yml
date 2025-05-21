@@ -1,12 +1,17 @@
 state_dir: ~/.lightbeam/
-data_dir: ./output/staffs/2019
+data_dir: ./output/schools/2021
 edfi_api:
-  base_url: ${EDFI_API_BASE_URL}
+  base_url: ${EDFI_API_BASE_URL_BOSTON}
   version: 3
   mode: district_specific
-  year: ${API_YEAR}
-  client_id: ${EDFI_API_CLIENT_ID}
-  client_secret: ${EDFI_API_CLIENT_SECRET}
+  year: ${API_YEAR_BOSTON}
+  client_id: ${EDFI_API_CLIENT_ID_BOSTON}
+  client_secret: ${EDFI_API_CLIENT_SECRET_BOSTON}
+  oauth_url: ${EDFI_API_BASE_URL_BOSTON}/oauth2/token
+  dependencies_url: ${EDFI_API_BASE_URL_BOSTON}/metadata/data/v3/2025/dependencies
+  open_api_metadata_url: ${EDFI_API_BASE_URL_BOSTON}/metadata/data/v3/2025/openapi.json
+  descriptors_swagger_url: ${EDFI_API_BASE_URL_BOSTON}/metadata/data/v3/2025/descriptors/swagger.json
+  resources_swagger_url: ${EDFI_API_BASE_URL_BOSTON}/metadata/data/v3/2025/resources/swagger.json
 connection:
   pool_size: 8
   timeout: 60

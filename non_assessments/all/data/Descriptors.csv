@@ -4898,3 +4898,819 @@ performance_level_descriptors,Assessment,uri://www.nwea.org/mapFluency/Performan
 performance_level_descriptors,Assessment,uri://www.nwea.org/mapFluency/PerformanceLevelDescriptor,Rhymes & Syllables,Rhymes & Syllables,Rhymes & Syllables
 performance_level_descriptors,Assessment,uri://www.nwea.org/mapFluency/PerformanceLevelDescriptor,Syllable & Phoneme Manipulation,Syllable & Phoneme Manipulation,Syllable & Phoneme Manipulation
 performance_level_descriptors,Assessment,uri://www.nwea.org/mapFluency/PerformanceLevelDescriptor,Syllable Blending & Initial Sounds,Syllable Blending & Initial Sounds,Syllable Blending & Initial Sounds
+grading_period_descriptors,BPS_ADD,uri://mybps.org/GradingPeriodDescriptor,F1,F1,F1
+grading_period_descriptors,BPS_ADD,uri://mybps.org/GradingPeriodDescriptor,F2,F2,F2
+grading_period_descriptors,BPS_ADD,uri://mybps.org/GradingPeriodDescriptor,F3,F3,F3
+grading_period_descriptors,BPS_ADD,uri://mybps.org/GradingPeriodDescriptor,F4,F4,F4
+grading_period_descriptors,BPS_ADD,uri://mybps.org/GradingPeriodDescriptor,F5,F5,F5
+grading_period_descriptors,BPS_ADD,uri://mybps.org/GradingPeriodDescriptor,Fall (Twilight),Fall (Twilight),Fall (Twilight)
+grading_period_descriptors,BPS_ADD,uri://mybps.org/GradingPeriodDescriptor,Q1,Q1,Q1
+grading_period_descriptors,BPS_ADD,uri://mybps.org/GradingPeriodDescriptor,Q2,Q2,Q2
+grading_period_descriptors,BPS_ADD,uri://mybps.org/GradingPeriodDescriptor,Q3,Q3,Q3
+grading_period_descriptors,BPS_ADD,uri://mybps.org/GradingPeriodDescriptor,Q4,Q4,Q4
+grading_period_descriptors,BPS_ADD,uri://mybps.org/GradingPeriodDescriptor,Spring (Twilight),Spring (Twilight),Spring (Twilight)
+grading_period_descriptors,BPS_ADD,uri://mybps.org/GradingPeriodDescriptor,Summer,Summer,Summer
+grading_period_descriptors,BPS_ADD,uri://mybps.org/GradingPeriodDescriptor,T1,T1,T1
+grading_period_descriptors,BPS_ADD,uri://mybps.org/GradingPeriodDescriptor,T2,T2,T2
+grading_period_descriptors,BPS_ADD,uri://mybps.org/GradingPeriodDescriptor,T3,T3,T3
+grading_period_descriptors,BPS_ADD,uri://mybps.org/GradingPeriodDescriptor,Fall (Elementary),Fall (Elementary),Fall (Elementary)
+grading_period_descriptors,BPS_ADD,uri://mybps.org/GradingPeriodDescriptor,Winter (Elementary),Winter (Elementary),Winter (Elementary)
+grading_period_descriptors,BPS_ADD,uri://mybps.org/GradingPeriodDescriptor,Spring (Elementary),Spring (Elementary),Spring (Elementary)
+graduation_plan_type_descriptors,BPS_ADD,uri://mybps.org/GraduationPlanTypeDescriptor,College Prep,College Prep,College Prep
+graduation_plan_type_descriptors,BPS_ADD,uri://mybps.org/GraduationPlanTypeDescriptor,General,General,General
+graduation_plan_type_descriptors,BPS_ADD,uri://mybps.org/GraduationPlanTypeDescriptor,Honors College Prep,Honors College Prep,Honors College Prep
+graduation_plan_type_descriptors,BPS_ADD,uri://mybps.org/GraduationPlanTypeDescriptor,Technical/Vocational,Technical/Vocational,Technical/Vocational
+graduation_plan_type_descriptors,BPS_ADD,uri://mybps.org/GraduationPlanTypeDescriptor,Certificate of Attainment,Certificate of Attainment,Certificate of Attainment
+graduation_plan_type_descriptors,BPS_ADD,uri://mybps.org/GraduationPlanTypeDescriptor,International Baccalaureatte ,International Baccalaureatte ,International Baccalaureatte 
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,01. English Requirements,01. English Requirements,01. English Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,01. Humanities Requirements,01. Humanities Requirements,01. Humanities Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,02. Math Requirements,02. Math Requirements,02. Math Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,03. Science Requirements,03. Science Requirements,03. Science Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,04. History/Social Studies Requirements,04. History/Social Studies Requirements,04. History/Social Studies Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,04. World Language Requirements,04. World Language Requirements,04. World Language Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,05. Fine and Performing Arts Requirements,05. Fine and Performing Arts Requirements,05. Fine and Performing Arts Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,05. Physical Education/ROTC Requirements,05. Physical Education/ROTC Requirements,05. Physical Education/ROTC Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,05. World Language Requirements,05. World Language Requirements,05. World Language Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,05_1. Latin World Language Requirements,05_1. Latin World Language Requirements,05_1. Latin World Language Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,06. Career/Vocational Technical Education,06. Career/Vocational Technical Education,06. Career/Vocational Technical Education
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,06. CVTE Requirements,06. CVTE Requirements,06. CVTE Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,06. Fine and Performing Arts Requirements,06. Fine and Performing Arts Requirements,06. Fine and Performing Arts Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,06. Health Requrements,06. Health Requrements,06. Health Requrements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,06. Latin Language Requirements,06. Latin Language Requirements,06. Latin Language Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,07. Health Requrements,07. Health Requrements,07. Health Requrements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,07. Health/PE Requirements,07. Health/PE Requirements,07. Health/PE Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,07. MCAS Requirements,07. MCAS Requirements,07. MCAS Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,07. Other Requirements,07. Other Requirements,07. Other Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,07. Physical Education/ROTC Requirements,07. Physical Education/ROTC Requirements,07. Physical Education/ROTC Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,08. Physical Education/ROTC Requirements,08. Physical Education/ROTC Requirements,08. Physical Education/ROTC Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,08. Technology Requirements,08. Technology Requirements,08. Technology Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,09. Electives Requirements,09. Electives Requirements,09. Electives Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,09. MCAS Requirements,09. MCAS Requirements,09. MCAS Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,09. Technology Requirements,09. Technology Requirements,09. Technology Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,10. MCAS Requirements,10. MCAS Requirements,10. MCAS Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,10th Grade 75% or Better,10th Grade 75% or Better,10th Grade 75% or Better
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,11th Grade 75% or Better,11th Grade 75% or Better,11th Grade 75% or Better
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,12th Grade 75% or Better,12th Grade 75% or Better,12th Grade 75% or Better
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,9th Grade 75% or Better,9th Grade 75% or Better,9th Grade 75% or Better
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Academic Requirements,Academic Requirements,Academic Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Additional Courses,Additional Courses,Additional Courses
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Additional Requirements,Additional Requirements,Additional Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Advanced Algebra,Advanced Algebra,Advanced Algebra
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Advanced Math,Advanced Math,Advanced Math
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Algebra I,Algebra I,Algebra I
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Algebra I or Math Elective,Algebra I or Math Elective,Algebra I or Math Elective
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Algebra II,Algebra II,Algebra II
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Algebra II/Integrated 3,Algebra II/Integrated 3,Algebra II/Integrated 3
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,American Sign Language,American Sign Language,American Sign Language
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Arabic,Arabic,Arabic
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Arts,Arts,Arts
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Arts Program,Arts Program,Arts Program
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Arts Program Selections,Arts Program Selections,Arts Program Selections
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Arts/Music,Arts/Music,Arts/Music
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Biology,Biology,Biology
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Biology and Chemistry,Biology and Chemistry,Biology and Chemistry
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Biology and Physics,Biology and Physics,Biology and Physics
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Business,Business,Business
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Capstone Project,Capstone Project,Capstone Project
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Chemistry,Chemistry,Chemistry
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Chemistry and Physics,Chemistry and Physics,Chemistry and Physics
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Chinese,Chinese,Chinese
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,College Acceptance/Admission,College Acceptance/Admission,College Acceptance/Admission
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Community Service,Community Service,Community Service
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Community Service - In School,Community Service - In School,Community Service - In School
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Community Service - Out of School,Community Service - Out of School,Community Service - Out of School
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,CVTE,CVTE,CVTE
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,CVTE 4 Credits,CVTE 4 Credits,CVTE 4 Credits
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,CVTE Courses,CVTE Courses,CVTE Courses
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,CVTE Related Coursework,CVTE Related Coursework,CVTE Related Coursework
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,CVTE-2 years same program,CVTE-2 years same program,CVTE-2 years same program
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Dance,Dance,Dance
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Dance Grade 09,Dance Grade 09,Dance Grade 09
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Dance Grade 10,Dance Grade 10,Dance Grade 10
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Dance Grade 11,Dance Grade 11,Dance Grade 11
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Dance Grade 12,Dance Grade 12,Dance Grade 12
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Dance Program,Dance Program,Dance Program
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Design and Visual Communication Grade 09,Design and Visual Communication Grade 09,Design and Visual Communication Grade 09
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Design and Visual Communication Grade 10,Design and Visual Communication Grade 10,Design and Visual Communication Grade 10
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Design and Visual Communication Grade 11,Design and Visual Communication Grade 11,Design and Visual Communication Grade 11
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Design and Visual Communication Grade 12,Design and Visual Communication Grade 12,Design and Visual Communication Grade 12
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Electives,Electives,Electives
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,English,English,English
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,English 09,English 09,English 09
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,English 10,English 10,English 10
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,English 11,English 11,English 11
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,English 12,English 12,English 12
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,English 9-12,English 9-12,English 9-12
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,English Language Arts,English Language Arts,English Language Arts
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,ESL 1,ESL 1,ESL 1
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,ESL 1-4,ESL 1-4,ESL 1-4
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,ESL 2,ESL 2,ESL 2
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,ESL 3,ESL 3,ESL 3
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,ESL 4,ESL 4,ESL 4
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Fashion Technology,Fashion Technology,Fashion Technology
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Fashion Technology Grade 09,Fashion Technology Grade 09,Fashion Technology Grade 09
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Fashion Technology Grade 10,Fashion Technology Grade 10,Fashion Technology Grade 10
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Fashion Technology Grade 11,Fashion Technology Grade 11,Fashion Technology Grade 11
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Fashion Technology Grade 12,Fashion Technology Grade 12,Fashion Technology Grade 12
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,French,French,French
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Geometry,Geometry,Geometry
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,German,German,German
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Greek,Greek,Greek
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Health Education,Health Education,Health Education
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Health/PE,Health/PE,Health/PE
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,History/Social Studies,History/Social Studies,History/Social Studies
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Hospitality,Hospitality,Hospitality
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Humanities,Humanities,Humanities
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Humanities 1,Humanities 1,Humanities 1
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Humanities 2,Humanities 2,Humanities 2
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Humanities 3,Humanities 3,Humanities 3
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Humanities 4,Humanities 4,Humanities 4
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Integrated Math 1-4,Integrated Math 1-4,Integrated Math 1-4
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Internship/Work Experience,Internship/Work Experience,Internship/Work Experience
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Italian,Italian,Italian
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Japanese,Japanese,Japanese
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Laboratory Science,Laboratory Science,Laboratory Science
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Latin,Latin,Latin
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,MADE Social Justice Pathway,MADE Social Justice Pathway,MADE Social Justice Pathway
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Math,Math,Math
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Math 09,Math 09,Math 09
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Math 10,Math 10,Math 10
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Math 11,Math 11,Math 11
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Math 12,Math 12,Math 12
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Math 9-12,Math 9-12,Math 9-12
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Math Elective,Math Elective,Math Elective
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,MCAS - ELA,MCAS - ELA,MCAS - ELA
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,MCAS - Math,MCAS - Math,MCAS - Math
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,MCAS - Science,MCAS - Science,MCAS - Science
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,MCAS ELA1,MCAS ELA1,MCAS ELA1
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,MCAS ELA2,MCAS ELA2,MCAS ELA2
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,MCAS English,MCAS English,MCAS English
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,MCAS English Group,MCAS English Group,MCAS English Group
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,MCAS Math 2021+,MCAS Math 2021+,MCAS Math 2021+
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,MCAS Math Group,MCAS Math Group,MCAS Math Group
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,MCAS Requirements,MCAS Requirements,MCAS Requirements
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Music,Music,Music
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Music Grade 09,Music Grade 09,Music Grade 09
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Music Grade 10,Music Grade 10,Music Grade 10
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Music Grade 11,Music Grade 11,Music Grade 11
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Music Grade 12,Music Grade 12,Music Grade 12
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Native Language,Native Language,Native Language
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Native Language Cape Verdean,Native Language Cape Verdean,Native Language Cape Verdean
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Native Language HILT,Native Language HILT,Native Language HILT
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Native Spanish Speakers,Native Spanish Speakers,Native Spanish Speakers
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Not Required,Not Required,Not Required
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Other,Other,Other
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Physical Education/ROTC,Physical Education/ROTC,Physical Education/ROTC
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Physics,Physics,Physics
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Precalculus,Precalculus,Precalculus
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Radio & TV Broadcasting,Radio & TV Broadcasting,Radio & TV Broadcasting
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Research Paper,Research Paper,Research Paper
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,ROTC,ROTC,ROTC
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Science,Science,Science
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Science 9-12,Science 9-12,Science 9-12
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Senior Project,Senior Project,Senior Project
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Senior Recital,Senior Recital,Senior Recital
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Social Studies,Social Studies,Social Studies
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Sophomore Benchmark,Sophomore Benchmark,Sophomore Benchmark
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Spanish,Spanish,Spanish
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Technology,Technology,Technology
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Theatre,Theatre,Theatre
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Theatre Grade 09,Theatre Grade 09,Theatre Grade 09
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Theatre Grade 10,Theatre Grade 10,Theatre Grade 10
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Theatre Grade 11,Theatre Grade 11,Theatre Grade 11
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Theatre Grade 12,Theatre Grade 12,Theatre Grade 12
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Unified Science 09,Unified Science 09,Unified Science 09
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Unified Science 10,Unified Science 10,Unified Science 10
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Unified Science 11,Unified Science 11,Unified Science 11
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Unified Science 12,Unified Science 12,Unified Science 12
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Unified Science 9-12,Unified Science 9-12,Unified Science 9-12
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Upper Level Math,Upper Level Math,Upper Level Math
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,US History,US History,US History
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,US History I,US History I,US History I
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,US History II,US History II,US History II
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Auto Collision/Refinish,V Auto Collision/Refinish,V Auto Collision/Refinish
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Automotive Technology,V Automotive Technology,V Automotive Technology
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Building/Property Maintenance,V Building/Property Maintenance,V Building/Property Maintenance
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Business Technology,V Business Technology,V Business Technology
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Cabinetmaking,V Cabinetmaking,V Cabinetmaking
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Carpentry,V Carpentry,V Carpentry
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Cosmetology,V Cosmetology,V Cosmetology
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Criminal Justice,V Criminal Justice,V Criminal Justice
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Culinary Arts,V Culinary Arts,V Culinary Arts
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Dental Assisting,V Dental Assisting,V Dental Assisting
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Design & Visual Communication,V Design & Visual Communication,V Design & Visual Communication
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Drafting,V Drafting,V Drafting
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Early Education and Care,V Early Education and Care,V Early Education and Care
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Electricity,V Electricity,V Electricity
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Engineering Technology,V Engineering Technology,V Engineering Technology
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Environmental Science & Technology,V Environmental Science & Technology,V Environmental Science & Technology
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Facilities Management,V Facilities Management,V Facilities Management
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Family & Consumer Studies,V Family & Consumer Studies,V Family & Consumer Studies
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Fashion Technology,V Fashion Technology,V Fashion Technology
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Graphic Communications,V Graphic Communications,V Graphic Communications
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Health Assisting,V Health Assisting,V Health Assisting
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Heating-Vent-AC-Refrigeration,V Heating-Vent-AC-Refrigeration,V Heating-Vent-AC-Refrigeration
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Horticulture,V Horticulture,V Horticulture
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Hospitality Management,V Hospitality Management,V Hospitality Management
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V IS Services & Networking,V IS Services & Networking,V IS Services & Networking
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Machine Tool Technology,V Machine Tool Technology,V Machine Tool Technology
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Marine Service Technology,V Marine Service Technology,V Marine Service Technology
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Marketing and Business Technology,V Marketing and Business Technology,V Marketing and Business Technology
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Masonry & Tile Setting,V Masonry & Tile Setting,V Masonry & Tile Setting
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Media Arts,V Media Arts,V Media Arts
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Medical Assisting,V Medical Assisting,V Medical Assisting
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Metal Fab & Joining Technology,V Metal Fab & Joining Technology,V Metal Fab & Joining Technology
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Office Technology,V Office Technology,V Office Technology
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Painting & Design Technology,V Painting & Design Technology,V Painting & Design Technology
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Plumbing,V Plumbing,V Plumbing
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Power Equipment Technology,V Power Equipment Technology,V Power Equipment Technology
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Printing,V Printing,V Printing
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Programming & Web Dev,V Programming & Web Dev,V Programming & Web Dev
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Protective Services,V Protective Services,V Protective Services
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Radio & TV Broadcasting,V Radio & TV Broadcasting,V Radio & TV Broadcasting
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Robotics and Auto Technology,V Robotics and Auto Technology,V Robotics and Auto Technology
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Sheet Metalworking,V Sheet Metalworking,V Sheet Metalworking
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Stationary Engineering,V Stationary Engineering,V Stationary Engineering
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,V Telecom-Fiber Optics,V Telecom-Fiber Optics,V Telecom-Fiber Optics
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Vocational,Vocational,Vocational
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Wellness,Wellness,Wellness
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,World History,World History,World History
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,World Language,World Language,World Language
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Writer's Workshop,Writer's Workshop,Writer's Workshop
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Writer's Workshop 1,Writer's Workshop 1,Writer's Workshop 1
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Writer's Workshop 2,Writer's Workshop 2,Writer's Workshop 2
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Writer's Workshop 3,Writer's Workshop 3,Writer's Workshop 3
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Writer's Workshop 4,Writer's Workshop 4,Writer's Workshop 4
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,xElectives,xElectives,xElectives
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Amer. Sign Language,Amer. Sign Language,Amer. Sign Language
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Art,Art,Art
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Chinese,Chinese,Chinese
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Computers,Computers,Computers
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Dance,Dance,Dance
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,DigitalLiteracy,DigitalLiteracy,DigitalLiteracy
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Drama,Drama,Drama
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,English Language Arts,English Language Arts,English Language Arts
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,ESL,ESL,ESL
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,French,French,French
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,German,German,German
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Health,Health,Health
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Italian,Italian,Italian
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,ItalianLangCulture,ItalianLangCulture,ItalianLangCulture
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Japanese,Japanese,Japanese
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,K2 Art,K2 Art,K2 Art
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,K2 Dance,K2 Dance,K2 Dance
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,K2 Drama,K2 Drama,K2 Drama
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,K2 Language Arts,K2 Language Arts,K2 Language Arts
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,K2 Math,K2 Math,K2 Math
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,K2 Music,K2 Music,K2 Music
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,K2 Other,K2 Other,K2 Other
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,K2 PhysicalEducation,K2 PhysicalEducation,K2 PhysicalEducation
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,K2 Science,K2 Science,K2 Science
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,K2 Social Studies,K2 Social Studies,K2 Social Studies
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,K2 SocialDevelopment,K2 SocialDevelopment,K2 SocialDevelopment
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,K2 Spanish,K2 Spanish,K2 Spanish
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,K2 Swimming,K2 Swimming,K2 Swimming
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,K2 Technology,K2 Technology,K2 Technology
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,K2 Reading Enrichment,K2 Reading Enrichment,K2 Reading Enrichment
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Library,Library,Library
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Lit Through the Arts,Lit Through the Arts,Lit Through the Arts
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Math,Math,Math
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Math Enrichment,Math Enrichment,Math Enrichment
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Mathematics,Mathematics,Mathematics
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Music,Music,Music
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Other,Other,Other
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Physical Education,Physical Education,Physical Education
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Reading,Reading,Reading
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Reading Enrichment,Reading Enrichment,Reading Enrichment
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Science,Science,Science
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Science Enrichment,Science Enrichment,Science Enrichment
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,SklLeadSocDevStand,SklLeadSocDevStand,SklLeadSocDevStand
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Social Studies,Social Studies,Social Studies
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Spanish,Spanish,Spanish
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Swimming,Swimming,Swimming
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Two-way Bilingual,Two-way Bilingual,Two-way Bilingual
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Work Based Learning,Work Based Learning,Work Based Learning
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,World Language,World Language,World Language
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Writing,Writing,Writing
+academic_subject_descriptors,BPS_ADD,uri://mybps.org/AcademicSubjectDescriptor,Writing Enrichment,Writing Enrichment,Writing Enrichment
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Quarter 1,Quarter 1,Quarter 1
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Quarters 1 and 2,Quarters 1 and 2,Quarters 1 and 2
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,"Quarters 1, 2 and 3","Quarters 1, 2 and 3","Quarters 1, 2 and 3"
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,"Quarters 1, 2 and 4","Quarters 1, 2 and 4","Quarters 1, 2 and 4"
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Quarters 1 and 3,Quarters 1 and 3,Quarters 1 and 3
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,"Quarters 1, 3 and 4","Quarters 1, 3 and 4","Quarters 1, 3 and 4"
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Quarters 1 and 4,Quarters 1 and 4,Quarters 1 and 4
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Quarter 2,Quarter 2,Quarter 2
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Quarters 2 and 3,Quarters 2 and 3,Quarters 2 and 3
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,"Quarters 2, 3 and 4","Quarters 2, 3 and 4","Quarters 2, 3 and 4"
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Quarter 2 and 4,Quarter 2 and 4,Quarter 2 and 4
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Quarter 3,Quarter 3,Quarter 3
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Quarters 3 and 4,Quarters 3 and 4,Quarters 3 and 4
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Quarter 4,Quarter 4,Quarter 4
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Semester 1,Semester 1,Semester 1
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Semester 2,Semester 2,Semester 2
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Summer,Summer,Summer
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Trimester 1,Trimester 1,Trimester 1
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Trimesters 1 and 2,Trimesters 1 and 2,Trimesters 1 and 2
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Trimesters 1 and 3,Trimesters 1 and 3,Trimesters 1 and 3
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Trimester 2,Trimester 2,Trimester 2
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Trimesters 2 and 3,Trimesters 2 and 3,Trimesters 2 and 3
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Trimester 3,Trimester 3,Trimester 3
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Mini Term 1,Mini Term 1,Mini Term 1
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Mini Term 2,Mini Term 2,Mini Term 2
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Mini Term 3,Mini Term 3,Mini Term 3
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Mini Term 4,Mini Term 4,Mini Term 4
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Mini Term 5,Mini Term 5,Mini Term 5
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Mini Term 6,Mini Term 6,Mini Term 6
+grade_level_descriptors,BPS_ADD,uri://mybps.org/GradeLevelDescriptor,1,1,1
+grade_level_descriptors,BPS_ADD,uri://mybps.org/GradeLevelDescriptor,2,2,2
+grade_level_descriptors,BPS_ADD,uri://mybps.org/GradeLevelDescriptor,3,3,3
+grade_level_descriptors,BPS_ADD,uri://mybps.org/GradeLevelDescriptor,4,4,4
+grade_level_descriptors,BPS_ADD,uri://mybps.org/GradeLevelDescriptor,5,5,5
+grade_level_descriptors,BPS_ADD,uri://mybps.org/GradeLevelDescriptor,6,6,6
+grade_level_descriptors,BPS_ADD,uri://mybps.org/GradeLevelDescriptor,7,7,7
+grade_level_descriptors,BPS_ADD,uri://mybps.org/GradeLevelDescriptor,8,8,8
+grade_level_descriptors,BPS_ADD,uri://mybps.org/GradeLevelDescriptor,9,9,9
+grade_level_descriptors,BPS_ADD,uri://mybps.org/GradeLevelDescriptor,10,10,10
+grade_level_descriptors,BPS_ADD,uri://mybps.org/GradeLevelDescriptor,11,11,11
+grade_level_descriptors,BPS_ADD,uri://mybps.org/GradeLevelDescriptor,12,12,12
+grade_level_descriptors,BPS_ADD,uri://mybps.org/GradeLevelDescriptor,13,13,13
+grade_level_descriptors,BPS_ADD,uri://mybps.org/GradeLevelDescriptor,K0,K0,K0
+grade_level_descriptors,BPS_ADD,uri://mybps.org/GradeLevelDescriptor,K1,K1,K1
+grade_level_descriptors,BPS_ADD,uri://mybps.org/GradeLevelDescriptor,K2,K2,K2
+grade_level_descriptors,BPS_ADD,uri://mybps.org/GradeLevelDescriptor,Pre-K0,Pre-K0,Pre-K0
+grade_level_descriptors,BPS_ADD,uri://mybps.org/GradeLevelDescriptor,SP,SP,SP
+school_category_descriptors,BPS_ADD,uri://mybps.org/SchoolCategoryDescriptor,Elementary School,Elementary School,Elementary School
+school_category_descriptors,BPS_ADD,uri://mybps.org/SchoolCategoryDescriptor,High School,High School,High School
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,All Levels,All Levels,All Levels
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Elementary,Elementary,Elementary
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Grades 1-6,Grades 1-6,Grades 1-6
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Grades 5-12,Grades 5-12,Grades 5-12
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Grades 5-8,Grades 5-8,Grades 5-8
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Grades 5-9,Grades 5-9,Grades 5-9
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Grades 7-12,Grades 7-12,Grades 7-12
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Grades 8-12,Grades 8-12,Grades 8-12
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Grades 9-12,Grades 9-12,Grades 9-12
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Grades 9-14,Grades 9-14,Grades 9-14
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Grades K-3,Grades K-3,Grades K-3
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Grades K-9,Grades K-9,Grades K-9
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Grades N-9,Grades N-9,Grades N-9
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Grades PreK-2,Grades PreK-2,Grades PreK-2
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Grades PreK-3,Grades PreK-3,Grades PreK-3
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Grades PreK-6,Grades PreK-6,Grades PreK-6
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Grades PreK-8,Grades PreK-8,Grades PreK-8
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Grades PreK-9,Grades PreK-9,Grades PreK-9
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Lvl depends on ELL,Lvl depends on ELL,Lvl depends on ELL
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Lvl depends on prerequsite,Lvl depends on prerequsite,Lvl depends on prerequsite
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Lvl depends on teaching,Lvl depends on teaching,Lvl depends on teaching
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Middle,Middle,Middle
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Preschool (3-7 years old),Preschool (3-7 years old),Preschool (3-7 years old)
+credential_field_descriptors,BPS_ADD,uri://mybps.org/CredentialFieldDescriptor,Secondary,Secondary,Secondary
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Adj. Counselor(non SPED),Adj. Counselor(non SPED),Adj. Counselor(non SPED)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Adj. Counselor(SPED),Adj. Counselor(SPED),Adj. Counselor(SPED)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Admin. Clerks/Secretaries,Admin. Clerks/Secretaries,Admin. Clerks/Secretaries
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Administrative Aides,Administrative Aides,Administrative Aides
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Athletic Coach,Athletic Coach,Athletic Coach
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Audiologist,Audiologist,Audiologist
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Central Office Staff,Central Office Staff,Central Office Staff
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Co-Teacher,Co-Teacher,Co-Teacher
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,CVTE Director,CVTE Director,CVTE Director
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Deputy/Assist. Principal,Deputy/Assist. Principal,Deputy/Assist. Principal
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Diagnostic/Eval Staff,Diagnostic/Eval Staff,Diagnostic/Eval Staff
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Director(Arts),Director(Arts),Director(Arts)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Director(Assessment),Director(Assessment),Director(Assessment)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Director(Curriculum),Director(Curriculum),Director(Curriculum)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Director(English Learner),Director(English Learner),Director(English Learner)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Director(English),Director(English),Director(English)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Director(Foriegn Lang.),Director(Foriegn Lang.),Director(Foriegn Lang.)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Director(Guidance),Director(Guidance),Director(Guidance)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Director(Hist/Soc. Stud.),Director(Hist/Soc. Stud.),Director(Hist/Soc. Stud.)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Director(Library/Media),Director(Library/Media),Director(Library/Media)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Director(Mathematics),Director(Mathematics),Director(Mathematics)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Director(Pro. Dev.),Director(Pro. Dev.),Director(Pro. Dev.)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Director(Pupil Personnel),Director(Pupil Personnel),Director(Pupil Personnel)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Director(Reading),Director(Reading),Director(Reading)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Director(Science),Director(Science),Director(Science)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Director(Technology),Director(Technology),Director(Technology)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Educational Interpreters,Educational Interpreters,Educational Interpreters
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,FamEngageCoord,FamEngageCoord,FamEngageCoord
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Food Services,Food Services,Food Services
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Guidance Counselor,Guidance Counselor,Guidance Counselor
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,HR Director,HR Director,HR Director
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Instruction,Instruction,Instruction
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Instruction Related Tech,Instruction Related Tech,Instruction Related Tech
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Instructional Coach,Instructional Coach,Instructional Coach
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,IT and Tech. Support,IT and Tech. Support,IT and Tech. Support
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Junior ROTC Instructor,Junior ROTC Instructor,Junior ROTC Instructor
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Librarian/Media Director,Librarian/Media Director,Librarian/Media Director
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Long Term Sub. Teacher,Long Term Sub. Teacher,Long Term Sub. Teacher
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Nurse(SPED),Nurse(SPED),Nurse(SPED)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Occupational Therapist,Occupational Therapist,Occupational Therapist
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Other Admin. Support,Other Admin. Support,Other Admin. Support
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Other Administrator,Other Administrator,Other Administrator
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Other Administrators,Other Administrators,Other Administrators
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Other SPED Staff,Other SPED Staff,Other SPED Staff
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Paraprofessional,Paraprofessional,Paraprofessional
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,PathwaysCoordinator,PathwaysCoordinator,PathwaysCoordinator
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Peripatologist,Peripatologist,Peripatologist
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Physical Therapist,Physical Therapist,Physical Therapist
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Physician,Physician,Physician
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Principal/Head of School,Principal/Head of School,Principal/Head of School
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Psychiatrist,Psychiatrist,Psychiatrist
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Psychologist(non SPED),Psychologist(non SPED),Psychologist(non SPED)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Psychologist(SPED),Psychologist(SPED),Psychologist(SPED)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Recreation Specialist,Recreation Specialist,Recreation Specialist
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Rehibilitation Counselor,Rehibilitation Counselor,Rehibilitation Counselor
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,School Business Official,School Business Official,School Business Official
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,School Nurse Leader,School Nurse Leader,School Nurse Leader
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,School Nurse: Non-SPED,School Nurse: Non-SPED,School Nurse: Non-SPED
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,School SPED Administrator,School SPED Administrator,School SPED Administrator
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Social Worker(non SPED),Social Worker(non SPED),Social Worker(non SPED)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Social Worker(SPED),Social Worker(SPED),Social Worker(SPED)
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,SPED Admin. Aides,SPED Admin. Aides,SPED Admin. Aides
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,SPED Admin. Clerks/Secs.,SPED Admin. Clerks/Secs.,SPED Admin. Clerks/Secs.
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,SPED Administrator,SPED Administrator,SPED Administrator
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Speech Pathologist,Speech Pathologist,Speech Pathologist
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,SR Officer,SR Officer,SR Officer
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Teacher - content instr.,Teacher - content instr.,Teacher - content instr.
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Tutor,Tutor,Tutor
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Vice Superintendents,Vice Superintendents,Vice Superintendents
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Virtual Course Co-Teacher,Virtual Course Co-Teacher,Virtual Course Co-Teacher
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Virtual Course Teacher,Virtual Course Teacher,Virtual Course Teacher
+staff_classification_descriptors,BPS_ADD,uri://mybps.org/StaffClassificationDescriptor,Work Study Coordinator,Work Study Coordinator,Work Study Coordinator
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Apology,Apology,Apology
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Counseling Intervention Center (CIC) placement,Counseling Intervention Center (CIC) placement,Counseling Intervention Center (CIC) placement
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Community service,Community service,Community service
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Conference,Conference,Conference
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Conference - parent,Conference - parent,Conference - parent
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Conference - student,Conference - student,Conference - student
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Confiscation of contraband,Confiscation of contraband,Confiscation of contraband
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Conflict resolution/anger management services,Conflict resolution/anger management services,Conflict resolution/anger management services
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Counseling mandated,Counseling mandated,Counseling mandated
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Court referral,Court referral,Court referral
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Hearing held,Hearing held,Hearing held
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Juvenile justice referral,Juvenile justice referral,Juvenile justice referral
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Demerit,Demerit,Demerit
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Detention,Detention,Detention
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Duties,Duties,Duties
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Emergency removal,Emergency removal,Emergency removal
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Expulsion with services,Expulsion with services,Expulsion with services
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Law enforcement referral/arrest,Law enforcement referral/arrest,Law enforcement referral/arrest
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Sent to office,Sent to office,Sent to office
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Phone call,Phone call,Phone call
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Physical activity,Physical activity,Physical activity
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Loss of privileges,Loss of privileges,Loss of privileges
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Loss of privileges - classroom,Loss of privileges - classroom,Loss of privileges - classroom
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Loss of privileges - parking,Loss of privileges - parking,Loss of privileges - parking
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Removal - to alt setting by hearing officer,Removal - to alt setting by hearing officer,Removal - to alt setting by hearing officer
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Removal - permanent,Removal - permanent,Removal - permanent
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Removal - temporary,Removal - temporary,Removal - temporary
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Reprimand,Reprimand,Reprimand
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Restitution,Restitution,Restitution
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Restorative practices,Restorative practices,Restorative practices
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Saturday school,Saturday school,Saturday school
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,School probation,School probation,School probation
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Substance abuse counseling,Substance abuse counseling,Substance abuse counseling
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Substance abuse treatment,Substance abuse treatment,Substance abuse treatment
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Bus suspension,Bus suspension,Bus suspension
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,In-schoool suspension,In-schoool suspension,In-schoool suspension
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Out-of-school suspension,Out-of-school suspension,Out-of-school suspension
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Ticket/citation,Ticket/citation,Ticket/citation
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Unsatisfactory behavior grade,Unsatisfactory behavior grade,Unsatisfactory behavior grade
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Writing assignment,Writing assignment,Writing assignment
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Restraint - mechanical,Restraint - mechanical,Restraint - mechanical
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Restraint - physical,Restraint - physical,Restraint - physical
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Seclusion,Seclusion,Seclusion
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Counseling/related services,Counseling/related services,Counseling/related services
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Hearing letter,Hearing letter,Hearing letter
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Letter,Letter,Letter
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Weapons possession resulting in expulsion or exclusion,Weapons possession resulting in expulsion or exclusion,Weapons possession resulting in expulsion or exclusion
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Substance possession resulting in expulsion or exclusion,Substance possession resulting in expulsion or exclusion,Substance possession resulting in expulsion or exclusion
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Assault of staff resulting in expulsion or exclusion,Assault of staff resulting in expulsion or exclusion,Assault of staff resulting in expulsion or exclusion
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Felony conviction,Felony conviction,Felony conviction
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Trespassing at school,Trespassing at school,Trespassing at school
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Leaving school building,Leaving school building,Leaving school building
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Allowing unauthorized entry to school building,Allowing unauthorized entry to school building,Allowing unauthorized entry to school building
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Occupying school building,Occupying school building,Occupying school building
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Preventing school functioning,Preventing school functioning,Preventing school functioning
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Cell phone violation,Cell phone violation,Cell phone violation
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Noise,Noise,Noise
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Disorderly conduct/disruptive behavior,Disorderly conduct/disruptive behavior,Disorderly conduct/disruptive behavior
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Disruption of school activity,Disruption of school activity,Disruption of school activity
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Bomb threat,Bomb threat,Bomb threat
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,False fire alarm,False fire alarm,False fire alarm
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Block school building entrance/exit,Block school building entrance/exit,Block school building entrance/exit
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Felony complaint,Felony complaint,Felony complaint
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Assault of staff resulting in injury,Assault of staff resulting in injury,Assault of staff resulting in injury
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Rape/attempted rape,Rape/attempted rape,Rape/attempted rape
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Sexual assault,Sexual assault,Sexual assault
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Sexual offense,Sexual offense,Sexual offense
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Assault - no weapon no injury,Assault - no weapon no injury,Assault - no weapon no injury
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Altercation - no injury,Altercation - no injury,Altercation - no injury
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Assault - no weapon,Assault - no weapon,Assault - no weapon
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Fighting - no weapon,Fighting - no weapon,Fighting - no weapon
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Fighting - weapon,Fighting - weapon,Fighting - weapon
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Electronic threat,Electronic threat,Electronic threat
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Threat - endangering school,Threat - endangering school,Threat - endangering school
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Threat - endangering person,Threat - endangering person,Threat - endangering person
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Homicide,Homicide,Homicide
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Kidnapping,Kidnapping,Kidnapping
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Threat - physical,Threat - physical,Threat - physical
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Threat - terroristic,Threat - terroristic,Threat - terroristic
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Threat - other,Threat - other,Threat - other
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Threat - verbal,Threat - verbal,Threat - verbal
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Threat - written,Threat - written,Threat - written
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Arson,Arson,Arson
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Encouraging fight,Encouraging fight,Encouraging fight
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Weapons possession resulting in expulsion or exclusion,Weapons possession resulting in expulsion or exclusion,Weapons possession resulting in expulsion or exclusion
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Bullying/cyberbullying,Bullying/cyberbullying,Bullying/cyberbullying
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Hazing acts/coercion,Hazing acts/coercion,Hazing acts/coercion
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Buullying retaliation,Buullying retaliation,Buullying retaliation
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Bias-based conduct,Bias-based conduct,Bias-based conduct
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Harassment - disability,Harassment - disability,Harassment - disability
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Harassment - other non-sexual,Harassment - other non-sexual,Harassment - other non-sexual
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Harassment - race/ethnic/national origin,Harassment - race/ethnic/national origin,Harassment - race/ethnic/national origin
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Harassment - religion,Harassment - religion,Harassment - religion
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Harassment - sexual,Harassment - sexual,Harassment - sexual
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Harassment - sexuality,Harassment - sexuality,Harassment - sexuality
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Slur - disability,Slur - disability,Slur - disability
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Slur - gender,Slur - gender,Slur - gender
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Slur - other,Slur - other,Slur - other
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Slur - race/ethnic/national origin,Slur - race/ethnic/national origin,Slur - race/ethnic/national origin
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Slur - religion,Slur - religion,Slur - religion
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Slur - sexuality,Slur - sexuality,Slur - sexuality
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Alcohol - distribution,Alcohol - distribution,Alcohol - distribution
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Alcohol - possession,Alcohol - possession,Alcohol - possession
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Alcohol - sale,Alcohol - sale,Alcohol - sale
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Drugs - distribution,Drugs - distribution,Drugs - distribution
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Drugs - paraphernalia possession,Drugs - paraphernalia possession,Drugs - paraphernalia possession
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Drugs - possession with intent to sell,Drugs - possession with intent to sell,Drugs - possession with intent to sell
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Drugs - sale,Drugs - sale,Drugs - sale
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Marijuana - possession,Marijuana - possession,Marijuana - possession
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Medication - distribution,Medication - distribution,Medication - distribution
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Medication - possession,Medication - possession,Medication - possession
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Alcohol - use,Alcohol - use,Alcohol - use
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Marijuana - use,Marijuana - use,Marijuana - use
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Medication - use,Medication - use,Medication - use
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Tobacco - use/posession,Tobacco - use/posession,Tobacco - use/posession
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Tobacco - sale,Tobacco - sale,Tobacco - sale
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Tobacco - use,Tobacco - use,Tobacco - use
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Tobacco - distribution,Tobacco - distribution,Tobacco - distribution
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Theft - with firearm,Theft - with firearm,Theft - with firearm
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Theft - with weapon,Theft - with weapon,Theft - with weapon
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Unlawful entry,Unlawful entry,Unlawful entry
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Textbooks/computers,Textbooks/computers,Textbooks/computers
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Theft school property,Theft school property,Theft school property
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Theft - other,Theft - other,Theft - other
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Theft - motor vehicle,Theft - motor vehicle,Theft - motor vehicle
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Vandalistm/destruction - other,Vandalistm/destruction - other,Vandalistm/destruction - other
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Vandalism/destruction - personal property,Vandalism/destruction - personal property,Vandalism/destruction - personal property
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Vandalism/destruction - school property,Vandalism/destruction - school property,Vandalism/destruction - school property
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Illegal network activity,Illegal network activity,Illegal network activity
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Information or language interfering with school operation,Information or language interfering with school operation,Information or language interfering with school operation
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Academic misconduct,Academic misconduct,Academic misconduct
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Copyright,Copyright,Copyright
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Revealing personal information of others,Revealing personal information of others,Revealing personal information of others
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Tampering with electronics,Tampering with electronics,Tampering with electronics
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Altering/destroying data,Altering/destroying data,Altering/destroying data
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Sexually explicit messages,Sexually explicit messages,Sexually explicit messages
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Cheating,Cheating,Cheating
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Cut class,Cut class,Cut class
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Dress code,Dress code,Dress code
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Eating,Eating,Eating
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Suicide,Suicide,Suicide
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Suicide attempt,Suicide attempt,Suicide attempt
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Suicide other,Suicide other,Suicide other
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Admin area,Admin area,Admin area
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Auditorium,Auditorium,Auditorium
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Bus,Bus,Bus
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Bus stop,Bus stop,Bus stop
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Cafeteria,Cafeteria,Cafeteria
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Classroom,Classroom,Classroom
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Computer lab,Computer lab,Computer lab
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Corridor,Corridor,Corridor
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Hallway,Hallway,Hallway
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Library/media center,Library/media center,Library/media center
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Locker room/gym,Locker room/gym,Locker room/gym
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Multiple,Multiple,Multiple
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Off-campus District,Off-campus District,Off-campus District
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Off-campus other,Off-campus other,Off-campus other
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Off-campus School,Off-campus School,Off-campus School
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Office,Office,Office
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,On campus,On campus,On campus
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,On-campus inside,On-campus inside,On-campus inside
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,On-campus outside,On-campus outside,On-campus outside
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Online,Online,Online
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Outside Other,Outside other,Outside other
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Parking,Parking,Parking
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Playground,Playground,Playground
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Restroom,Restroom,Restroom
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,School bus,School bus,School bus
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Stadium,Stadium,Stadium
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Walking School,Walking School,Walking School
+calendar_event_descriptors,BPS_ADD,uri://mybps.org/CalendarEventDescriptor,Vacation,Vacation,Vacation
+calendar_event_descriptors,BPS_ADD,uri://mybps.org/CalendarEventDescriptor,Instructional,Instructional,Instructional
+weapon_descriptors,BPS_ADD,uri://mybps.org/WeaponDescriptor,Any object no reasonable use,Any object no reasonable use,Any object no reasonable use
+weapon_descriptors,BPS_ADD,uri://mybps.org/WeaponDescriptor,Explosive,Explosive,Explosive
+weapon_descriptors,BPS_ADD,uri://mybps.org/WeaponDescriptor,Fire,Fire,Fire
+weapon_descriptors,BPS_ADD,uri://mybps.org/WeaponDescriptor,Handgun,Handgun,Handgun
+weapon_descriptors,BPS_ADD,uri://mybps.org/WeaponDescriptor,Knife,Knife,Knife
+weapon_descriptors,BPS_ADD,uri://mybps.org/WeaponDescriptor,Knife greater than 2.5,Knife greater than 2.5,Knife greater than 2.5
+weapon_descriptors,BPS_ADD,uri://mybps.org/WeaponDescriptor,Knife less than 2.5,Knife less than 2.5,Knife less than 2.5
+weapon_descriptors,BPS_ADD,uri://mybps.org/WeaponDescriptor,Other knife,Other knife,Other knife
+weapon_descriptors,BPS_ADD,uri://mybps.org/WeaponDescriptor,Other Object,Other Object,Other Object
+weapon_descriptors,BPS_ADD,uri://mybps.org/WeaponDescriptor,Other Sharp Objects,Other Sharp Objects,Other Sharp Objects
+weapon_descriptors,BPS_ADD,uri://mybps.org/WeaponDescriptor,Other type of firearm,Other type of firearm,Other type of firearm
+weapon_descriptors,BPS_ADD,uri://mybps.org/WeaponDescriptor,Shotgun/rifle,Shotgun/rifle,Shotgun/rifle
+weapon_descriptors,BPS_ADD,uri://mybps.org/WeaponDescriptor,Substance Used Weapon,Substance Used Weapon,Substance Used Weapon
+weapon_descriptors,BPS_ADD,uri://mybps.org/WeaponDescriptor,Unknown Weapon,Unknown Weapon,Unknown Weapon
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,afa,West Asian,West Asian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,afr,Afrikaans,Afrikaans
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,amh,Amharic,Amharic
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,ara,Arabic,Arabic
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,aus,Aboriginal,Aboriginal
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,aym,Aymara,Aymara
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,bam,Bambara,Bambara
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,bej,Beja,Beja
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,bel,Byeloruss,Byeloruss
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,ben,Bengali,Bengali
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,ber,Berber,Berber
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,bnt,Bantu,Bantu
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,bod,Tibetan,Tibetan
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,bre,Brenton,Brenton
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,bul,Bulgarian,Bulgarian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,cat,Catalan,Catalan
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,cat,Valencian,Valencian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,cau,Caucasian,Caucasian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,ceb,Cebuano,Cebuano
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,ces,Czech,Czech
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,cmn,Mandarin,Mandarin
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,cpe,Gollato,Gollato
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,cpe,Pidgin English,Pidgin English
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,cpf,French Patois,French Patois
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,wel,Welsh,Welsh
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,dan,Danish,Danish
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,deu,German,German
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,dik,Dinka,Dinka
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,div,Divehi,Divehi
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,dje,Djerma,Djerma
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,dzo,Dzongkha Tibetan,Dzongkha Tibetan
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,ell,Greek,Greek
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,eng,English,English
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,eus,Basque,Basque
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,fan,Fang,Fang
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,fas,Farsi,Farsi
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,fas,Persian,Persian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,fij,Fijian,Fijian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,fil,Pilipino,Pilipino
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,fin,Finnish,Finnish
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,fiu,Uralian,Uralian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,fra,French,French
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,fry,Frisian,Frisian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,ful,Fula,Fula
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,fur,Fur,Fur
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,gaa,Ga,Ga
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,gil,Gilbertese,Gilbertese
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,gle,Irish Gaelic,Irish Gaelic
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,glg,Galician,Galician
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,grb,Grebo,Grebo
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,grb,Kru/Krumen,Kru/Krumen
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,grn,Guarani,Guarani
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,gsw,Alsatian German,Alsatian German
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,guj,Gujarati,Gujarati
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,hak,Hakka Dialect,Hakka Dialect
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,hat,Haitian Creole,Haitian Creole
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,hau,Hausa,Hausa
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,heb,Hebrew,Hebrew
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,hin,Hindi,Hindi
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,hmn,H'Mong,H'Mong
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,hmo,Police Motu,Police Motu
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,hrv,Croatian,Croatian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,hun,Hungarian,Hungarian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,hye,Armenian,Armenian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,ibo,Ibo,Ibo
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,ind,Bahasa Indonesian,Bahasa Indonesian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,ine,Indo-European,Indo-European
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,isl,Icelandic,Icelandic
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,ita,Italian,Italian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,jam,Jamaican Creole,Jamaican Creole
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,jav,Javanese,Javanese
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,jpn,Japanese,Japanese
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,jrb,Juba Arabic,Juba Arabic
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,kas,Kashmiri,Kashmiri
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,kea,Cape Verdean,Cape Verdean
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,kea,Crioulo,Crioulo
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,khk,Khaikha Mongolian,Khaikha Mongolian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,khm,Cambodian,Cambodian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,khm,Khmer,Khmer
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,kin,Kinyarwandu,Kinyarwandu
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,klu,Klao,Klao
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,kor,Korean,Korean
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,kor,Seoul,Seoul
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,kpe,Kpelle,Kpelle
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,kri,Krio,Krio
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,kur,Kurdish,Kurdish
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,lao,Lao,Lao
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,lat,Latin,Latin
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,lav,Latvian,Latvian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,lit,Lithuanian,Lithuanian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,lom,Loma,Loma
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,ltz,Luxembourgish,Luxembourgish
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,lug,Luganda,Luganda
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,man,Mandingo,Mandingo
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,men,Mende,Mende
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,mey,Hassaniya Arabic,Hassaniya Arabic
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,mkd,Macedonian,Macedonian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,mlg,Malagasy,Malagasy
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,mlg,Merina,Merina
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,mlt,Maltese,Maltese
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,mri,Maori,Maori
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,msa,Malay,Malay
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,mya,Burmese,Burmese
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,nah,Mexica,Mexica
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,nah,Nahuatl,Nahuatl
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,nai,Indian,Indian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,nan,Fukien,Fukien
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,nan,Taiwan,Taiwan
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,nau,Nauraun,Nauraun
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,nbl,Ndebele,Ndebele
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,tne,Toishanese,Toishanese
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,cpf,Patois,Patois
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,kro,Krahn,Krahn
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,mis,Chechuto,Chechuto
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,mis,Namkyongto,Namkyongto
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,mis,Other,Other
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,nep,Nepali,Nepali
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,new,Newari,Newari
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,nic,Niger-Congo,Niger-Congo
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,nld,Dutch,Dutch
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,nor,Norwegian,Norwegian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,mis,Shungchondo,Shungchondo
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,nub,Nubian,Nubian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,mis,Undefined,Undefined
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,mis,Vigus,Vigus
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,nic,More,More
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,mis,Sudanese (Other),Sudanese (Other)
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,paa,Papuan,Papuan
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,pan,Punjabi/Panjabi,Punjabi/Panjabi
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,pis,Melanesian,Melanesian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,pol,Polish,Polish
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,roa,Monegasque,Monegasque
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,por,Portuguese,Portuguese
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,prs,Dari Persian,Dari Persian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,pus,Pushtu/Pashtu,Pushtu/Pashtu
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,roa,Romanisch,Romanisch
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,que,Quechua,Quechua
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,ron,Romanian,Romanian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,run,Kirundi,Kirundi
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,sgn,Amer. Sign Language,Amer. Sign Language
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,sla,Serbo-Croatian,Serbo-Croatian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,rus,Russian,Russian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,smi,Lapp,Lapp
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,tut,Altaic,Altaic
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,sag,Sangho,Sangho
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,nya,Chichewa,Chichewa
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,sin,Sinhala,Sinhala
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,slk,Slovak,Slovak
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,slv,Slovene,Slovene
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,smo,Samoan,Samoan
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,sna,Shona,Shona
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,snd,Sindhi,Sindhi
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,nya,Nyanja,Nyanja
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,som,Somali,Somali
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,sot,Lesotho,Lesotho
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,sot,Sotho,Sotho
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,spa,Spanish,Spanish
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,sqi,Albanian,Albanian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,srn,Sranan Tongo,Sranan Tongo
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,srp,Serbian,Serbian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,ssw,Siswati,Siswati
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,swa,Swahili,Swahili
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,swe,Swedish,Swedish
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,tam,Tamil,Tamil
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,tel,Telugu,Telugu
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,tgl,Tagalog,Tagalog
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,tha,Thai,Thai
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,tig,Tigre,Tigre
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,tir,Tigrinya,Tigrinya
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,ton,Tongan,Tongan
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,tpi,Melanesian Pidgin,Melanesian Pidgin
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,tsn,Setswana,Setswana
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,tsn,Tswana,Tswana
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,tur,Turkish,Turkish
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,tur,Kurkish,Kurkish
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,tvl,Tuvaluan,Tuvaluan
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,twi,Twi,Twi
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,ukr,Ukrainian,Ukrainian
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,urd,Urdu,Urdu
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,uzb,Uzbec,Uzbec
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,vie,Vietnamese,Vietnamese
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,vls,Flemish,Flemish
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,wuu,Shanghai Dialect,Shanghai Dialect
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,xho,Xhosa,Xhosa
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,yid,Yiddish,Yiddish
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,yor,Yoruba,Yoruba
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,yue,Cantonese,Cantonese
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,zho,Chinese,Chinese
+language_descriptors,BPS_ADD,uri://mybps.org/LanguageDescriptor,zul,Zulu,Zulu
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Other,Other,Other

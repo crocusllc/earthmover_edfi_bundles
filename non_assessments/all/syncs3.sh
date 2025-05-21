@@ -10,6 +10,8 @@ S3_BASE_PATH="boston/historic"
 
 # Get today's date in YYYYMMDD format
 TODAY=$(date +"%Y%m%d")
+#create an include list for the directories
+#INCLUDE_DIR_NAMES=("stateEducationAgencies") # Specify the entity types to include
 
 # Define Ed-Fi resource name mapping (folder to snake_case)
 # This maps directory names to their Ed-Fi API resource names
@@ -37,7 +39,13 @@ function get_edfi_resource_name() {
         "educationOrganizationNetworks") echo "education_organization_networks" ;;
         "educationServiceCenters") echo "education_service_centers" ;;
         "studentParentAssociations") echo "student_parent_associations" ;;
-        *) echo "${dir_name,,}" | sed 's/\([A-Z]\)/_\L\1/g' | sed 's/^_//' ;;
+        "educationOrganizationNetworks") echo "education_organization_networks" ;;
+        "educationOrganizationNetworkAssociations") echo "education_organization_network_associations" ;;
+        "locations") echo "locations" ;;
+        "gradingPeriods") echo "grading_periods" ;;
+
+
+       * ) echo "${dir_name,,}" | sed 's/\([A-Z]\)/_\L\1/g' | sed 's/^_//' ;;
     esac
 }
 
@@ -54,6 +62,11 @@ function process_year_directory() {
     
     # Find all JSON/JSONL files
     for json_file in "$year_dir"/*.json*; do
+        #if entity isn't in the include list then skip the file
+ #       if [[ ! " ${INCLUDE_DIR_NAMES[@]} " =~ " ${entity_type} " ]]; then
+  #          echo "Skipping $json_file as the entity type is not in the include list"
+   #         continue
+    #    fi
         if [[ -f "$json_file" ]]; then
             filename=$(basename "$json_file")
             #if the year is less than 2000 then skip the file
