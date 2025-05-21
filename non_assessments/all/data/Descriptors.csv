@@ -1014,7 +1014,7 @@ homeless_program_service_descriptors,ed-fi,uri://ed-fi.org/HomelessProgramServic
 identification_document_use_descriptors,ed-fi,uri://ed-fi.org/IdentificationDocumentUseDescriptor,Foreign Citizenship Identification,Foreign Citizenship Identification,Foreign Citizenship Identification
 identification_document_use_descriptors,ed-fi,uri://ed-fi.org/IdentificationDocumentUseDescriptor,Personal Information Verification,Personal Information Verification,Personal Information Verification
 identification_document_use_descriptors,ed-fi,uri://ed-fi.org/IdentificationDocumentUseDescriptor,US Citizenship Identification,US Citizenship Identification,US Citizenship Identification
-incident_location_descriptors,ed-fi,uri://ed-fi.org/IncidentLocationDescriptor,Administrative offices area,Administrative offices area,Administrative offices area
+incident_location_descriptors,ed-fi,uri://ed-fi.org/IncidentLocationDescriptor,Education Organization Network,Administrative offices area,Administrative offices area
 incident_location_descriptors,ed-fi,uri://ed-fi.org/IncidentLocationDescriptor,Athletic field or playground,Athletic field or playground,Athletic field or playground
 incident_location_descriptors,ed-fi,uri://ed-fi.org/IncidentLocationDescriptor,Auditorium,Auditorium,Auditorium
 incident_location_descriptors,ed-fi,uri://ed-fi.org/IncidentLocationDescriptor,Bus stop,Bus stop,Bus stop
@@ -5222,6 +5222,10 @@ term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Mini Term 3,Mini Term 3,
 term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Mini Term 4,Mini Term 4,Mini Term 4
 term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Mini Term 5,Mini Term 5,Mini Term 5
 term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Mini Term 6,Mini Term 6,Mini Term 6
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Semester 1 Alternating 1,Semester 1 Alternating 1,Semester 1 Alternating 1
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Semester 1 Alternating 2,Semester 1 Alternating 2,Semester 1 Alternating 2
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Semester 2 Alternating 1,Semester 2 Alternating 1,Semester 2 Alternating 1
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Semester 2 Alternating 2,Semester 2 Alternating 2,Semester 2 Alternating 2
 grade_level_descriptors,BPS_ADD,uri://mybps.org/GradeLevelDescriptor,1,1,1
 grade_level_descriptors,BPS_ADD,uri://mybps.org/GradeLevelDescriptor,2,2,2
 grade_level_descriptors,BPS_ADD,uri://mybps.org/GradeLevelDescriptor,3,3,3
@@ -5384,6 +5388,19 @@ discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Seclusion,Se
 discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Counseling/related services,Counseling/related services,Counseling/related services
 discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Hearing letter,Hearing letter,Hearing letter
 discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Letter,Letter,Letter
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Behavior Monitoring/Contract,Behavior Monitoring/Contract,Behavior Monitoring/Contract
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Classroom change,Classroom change,Classroom change
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Bus Plan,Bus Plan,Bus Plan
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Documentation,Documentation,Documentation
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Confiscation,Confiscation,Confiscation
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Community service,Community service,Community service
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Emergency removal,Emergency removal,Emergency removal
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,No Disciplinary Action,No Disciplinary Action,No Disciplinary Action
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Mediation,Mediation,Mediation
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Succeed Boston Voluntary Placement,Succeed Boston Voluntary Placement,Succeed Boston Voluntary Placement
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Reflection form,Reflection form,Reflection form
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Referral to student support,Referral to student support,Referral to student support
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Expulsion with services,Expulsion with services,Expulsion with services
 behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Weapons possession resulting in expulsion or exclusion,Weapons possession resulting in expulsion or exclusion,Weapons possession resulting in expulsion or exclusion
 behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Substance possession resulting in expulsion or exclusion,Substance possession resulting in expulsion or exclusion,Substance possession resulting in expulsion or exclusion
 behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Assault of staff resulting in expulsion or exclusion,Assault of staff resulting in expulsion or exclusion,Assault of staff resulting in expulsion or exclusion
@@ -5481,6 +5498,9 @@ behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Eating,Eating,Ea
 behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Suicide,Suicide,Suicide
 behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Suicide attempt,Suicide attempt,Suicide attempt
 behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Suicide other,Suicide other,Suicide other
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Drugs - use,Drugs - use,Drugs - use
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Drugs - possession,Drugs - possession,Drugs - possession
+behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Bullying retaliation,Bullying retaliation,Bullying retaliation
 incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Admin area,Admin area,Admin area
 incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Auditorium,Auditorium,Auditorium
 incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Bus,Bus,Bus
@@ -5501,7 +5521,7 @@ incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor
 incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,On-campus inside,On-campus inside,On-campus inside
 incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,On-campus outside,On-campus outside,On-campus outside
 incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Online,Online,Online
-incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Outside Other,Outside other,Outside other
+incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Outside Other,Outside Other,Outside Other
 incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Parking,Parking,Parking
 incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Playground,Playground,Playground
 incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Restroom,Restroom,Restroom
