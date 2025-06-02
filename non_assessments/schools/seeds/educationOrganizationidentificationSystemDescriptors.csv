@@ -1,7 +1,0 @@
-codeValue,description,namespace,shortDescription
-SEA,SEA,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor,SEA
-LEA,LEA,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor,LEA
-NCES,NCES,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor,NCES
-School,School,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor,School
-Federal,Federal,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor,Federal
-Other,Other,uri://ed-fi.org/EducationOrganizationIdentificationSystemDescriptor,Other

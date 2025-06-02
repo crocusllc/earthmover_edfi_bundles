@@ -43,10 +43,40 @@ function get_edfi_resource_name() {
         "educationOrganizationNetworkAssociations") echo "education_organization_network_associations" ;;
         "locations") echo "locations" ;;
         "gradingPeriods") echo "grading_periods" ;;
+        "disciplineActions") echo "discipline_actions" ;;
 
 
        * ) echo "${dir_name,,}" | sed 's/\([A-Z]\)/_\L\1/g' | sed 's/^_//' ;;
     esac
+}
+
+# Function to find the most recent previous upload date for an entity and year
+function find_previous_upload_date() {
+    local entity_resource=$1
+    local year=$2
+    
+    # List all date folders for this entity and year, sort in reverse order
+    local dates=$(aws s3 ls "s3://$S3_BUCKET/$S3_BASE_PATH/$year/" | grep -o '[0-9]\{8\}' | sort -r)
+    
+    # Return the first date (most recent) that's not today
+    for date in $dates; do
+        if [ "$date" != "$TODAY" ]; then
+            echo "$date"
+            return 0
+        fi
+    done
+    
+    # No previous upload found
+    echo ""
+    return 1
+}
+
+# Function to check if a file exists in S3
+function file_exists_in_s3() {
+    local s3_path=$1
+    
+    aws s3 ls "$s3_path" &> /dev/null
+    return $?
 }
 
 # Function to process files in a year directory
@@ -60,6 +90,11 @@ function process_year_directory() {
     # Get the corresponding Ed-Fi resource name
     edfi_resource=$(get_edfi_resource_name "$entity_type")
     
+    # Find the most recent previous upload date for this entity and year
+    previous_date=$(find_previous_upload_date "$edfi_resource" "$year")
+    
+    echo "Most recent previous upload date for $edfi_resource in year $year: ${previous_date:-None}"
+    
     # Find all JSON/JSONL files
     for json_file in "$year_dir"/*.json*; do
         #if entity isn't in the include list then skip the file
@@ -70,21 +105,37 @@ function process_year_directory() {
         if [[ -f "$json_file" ]]; then
             filename=$(basename "$json_file")
             #if the year is less than 2000 then skip the file
-            if [[ "$year" -lt 2000 ]]; then
+            if [[ "$year" -lt 2012 ]]; then
                 echo "Skipping $filename as the year is less than 2000"
                 continue
             fi
-            # Construct S3 path
+            
+            # Construct new S3 path
             s3_path="s3://$S3_BUCKET/$S3_BASE_PATH/$year/$TODAY/$edfi_resource/$filename"
             
-            echo "Uploading $json_file to $s3_path"
-            aws s3 cp "$json_file" "$s3_path"
+            # If we found a previous upload date, check if the file exists there
+            if [ -n "$previous_date" ]; then
+           #    previous_s3_path="s3://$S3_BUCKET/$S3_BASE_PATH/$year/$previous_date/$edfi_resource/$filename"
+                
+            #    if file_exists_in_s3 "$previous_s3_path"; then
+             #       echo "File exists in previous upload. Copying from $previous_s3_path to $s3_path"
+              #      aws s3 cp "$previous_s3_path" "$s3_path"
+               
+               # else
+                #    echo "File doesn't exist in previous upload. Uploading $json_file to $s3_path"
+                    aws s3 cp "$json_file" "$s3_path"
+                #fi
+            #else
+                # No previous upload found, upload from local
+                echo "No previous upload found. Uploading $json_file to $s3_path"
+                aws s3 cp "$json_file" "$s3_path"
+            fi
             
             # Check if upload was successful
             if [ $? -eq 0 ]; then
-                echo "✅ Successfully uploaded $filename"
+                echo "✅ Successfully processed $filename"
             else
-                echo "❌ Failed to upload $filename"
+                echo "❌ Failed to process $filename"
             fi
         fi
     done
