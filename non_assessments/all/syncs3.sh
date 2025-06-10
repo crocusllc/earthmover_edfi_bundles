@@ -1,5 +1,4 @@
 #!/bin/bash
-# filepath: /home/bruk/code/boston/earthmover_edfi_bundles/non_assessments/all/syncs3.sh
 
 # Base directory for output files
 OUTPUT_DIR="./output"
@@ -162,4 +161,4 @@ for entity_dir in "$OUTPUT_DIR"/*/ ; do
     fi
 done
 
-echo "S3 sync completed!"
+echo "S3 sync completed!"   

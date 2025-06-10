@@ -5401,6 +5401,7 @@ discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Succeed Bost
 discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Reflection form,Reflection form,Reflection form
 discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Referral to student support,Referral to student support,Referral to student support
 discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Expulsion with services,Expulsion with services,Expulsion with services
+discipline_descriptors,BPS_ADD,uri://mybps.org/DisciplineDescriptor,Succeed Boston Placement,Succeed Boston Placement,Succeed Boston Placement
 behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Weapons possession resulting in expulsion or exclusion,Weapons possession resulting in expulsion or exclusion,Weapons possession resulting in expulsion or exclusion
 behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Substance possession resulting in expulsion or exclusion,Substance possession resulting in expulsion or exclusion,Substance possession resulting in expulsion or exclusion
 behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Assault of staff resulting in expulsion or exclusion,Assault of staff resulting in expulsion or exclusion,Assault of staff resulting in expulsion or exclusion
@@ -5501,6 +5502,10 @@ behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Suicide other,Su
 behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Drugs - use,Drugs - use,Drugs - use
 behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Drugs - possession,Drugs - possession,Drugs - possession
 behavior_descriptors,BPS_ADD,uri://mybps.org/BehaviorDescriptor,Bullying retaliation,Bullying retaliation,Bullying retaliation
+behavior_descriptors,bps,uri://mybps.org/BehaviorDescriptor,Arson or Attempted Arson,Arson or Attempted Arson,Arson or Attempted Arson
+behavior_descriptors,bps,uri://mybps.org/BehaviorDescriptor,Attendance Policy Violation,Attendance Policy Violation,Attendance Policy Violation
+behavior_descriptors,bps,uri://mybps.org/BehaviorDescriptor,Weapons Possession (Firearms and Other Weapons),Weapons Possession (Firearms and Other Weapons),Weapons Possession (Firearms and Other Weapons)
+country_descriptors,BPS_ADD,uri://mybps.org/CountryDescriptor,XK,Kosov,Kosov
 incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Admin area,Admin area,Admin area
 incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Auditorium,Auditorium,Auditorium
 incident_location_descriptors,BPS_ADD,uri://mybps.org/IncidentLocationDescriptor,Bus,Bus,Bus
