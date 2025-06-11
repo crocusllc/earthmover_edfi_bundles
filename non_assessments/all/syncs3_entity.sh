@@ -81,34 +81,7 @@ function get_edfi_resource_name() {
     esac
 }
 
-# Function to find the most recent previous upload date for an entity and year
-function find_previous_upload_date() {
-    local entity_resource=$1
-    local year=$2
-    
-    # List all date folders for this entity and year, sort in reverse order
-    local dates=$(aws s3 ls "s3://$S3_BUCKET/$S3_BASE_PATH/$year/" | grep -o '[0-9]\{8\}' | sort -r)
-    
-    # Return the first date (most recent) that's not today
-    for date in $dates; do
-        if [ "$date" != "$TODAY" ]; then
-            echo "$date"
-            return 0
-        fi
-    done
-    
-    # No previous upload found
-    echo ""
-    return 1
-}
 
-# Function to check if a file exists in S3
-function file_exists_in_s3() {
-    local s3_path=$1
-    
-    aws s3 ls "$s3_path" &> /dev/null
-    return $?
-}
 
 # Function to process files in a year directory
 function process_year_directory() {
@@ -121,11 +94,6 @@ function process_year_directory() {
     # Get the corresponding Ed-Fi resource name
     edfi_resource=$(get_edfi_resource_name "$entity_type")
     
-    # Find the most recent previous upload date for this entity and year
-    previous_date=$(find_previous_upload_date "$edfi_resource" "$year")
-    
-    echo "Most recent previous upload date for $edfi_resource in year $year: ${previous_date:-None}"
-    
     # Find all JSON/JSONL files
     for json_file in "$year_dir"/*.json*; do
         if [[ -f "$json_file" ]]; then
@@ -133,23 +101,16 @@ function process_year_directory() {
             
             # Skip files for years less than 2012
             if [[ "$year" -lt 2012 ]]; then
-                echo "Skipping $filename as the year is less than 2012"
+                #echo "Skipping $filename as the year is less than 2012"
                 continue
             fi
             
-            # Construct new S3 path
+            # Construct S3 path
             s3_path="s3://$S3_BUCKET/$S3_BASE_PATH/$year/$TODAY/$edfi_resource/$filename"
             
-            # If we found a previous upload date, check if the file exists there
-            if [ -n "$previous_date" ]; then
-                # Upload from local (previous upload logic commented out for now)
-                echo "Uploading $json_file to $s3_path"
-                aws s3 cp "$json_file" "$s3_path"
-            else
-                # No previous upload found, upload from local
-                echo "No previous upload found. Uploading $json_file to $s3_path"
-                aws s3 cp "$json_file" "$s3_path"
-            fi
+            # Upload file directly
+            echo "Uploading $json_file to $s3_path"
+            aws s3 cp "$json_file" "$s3_path"
             
             # Check if upload was successful
             if [ $? -eq 0 ]; then

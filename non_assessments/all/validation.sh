@@ -10,7 +10,7 @@ OUTPUT_DIR="${BASE_DIR}/output"
 # List of entity types to skip
 #SKIP_ENTITIES=(  ) 
 
-SKIP_ENTITIES=("calendarDates" "staffs" "disciplineIncidents" "classPeriods" "calendars" "localEducationAgencies" "sections" "studentParentAssociations" "courseOfferings" "locations" "schools" "sessions" "disciplineActions" "disciplineIncidents" "studentDisciplineIncidentBehaviorAssociations") # Specify the entity types to skip
+SKIP_ENTITIES=("calendarDates" "staffs" "disciplineIncidents" "classPeriods" "calendars" "localEducationAgencies" "sections" "studentParentAssociations" "courseOfferings" "locations" "schools" "sessions" "disciplineActions" "disciplineIncidents" "studentDisciplineIncidentBehaviorAssociations" "studentEducationOrganizationAssociations") # Specify the entity types to skip
 INCLUDE_YEARS=("2012" "2013" "2014" "2015" "2016" "2017" "2018" "2019" "2020" "2021" "2022" "2023" "2024") # Specify the years to include from 2012 to 2023
 
 # Check if output directory exists
