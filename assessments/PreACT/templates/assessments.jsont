@@ -79,9 +79,7 @@
       },
       {
         "assessmentReportingMethodDescriptor": "uri://act.org/Assessment/AssessmentReportingMethodDescriptor#Progress Toward Career Readiness Indicator",
-        "maximumScore": "-",
-        "minimumScore": "-",
-        "performanceLevelDescriptor": "uri://act.org/Assessment//PerformanceLevelDescriptor#Unable to calculate"
+        "performanceLevelDescriptor": "uri://act.org/Assessment//PerformanceLevelDescriptor#-"
       }
     ]
 }
