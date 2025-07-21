@@ -4,13 +4,13 @@
 BASE_DIR=$(dirname "$(realpath "$0")")
 
 
-LIGHTBEAM_CONFIG="${BASE_DIR}/lightbeam.yml"
+LIGHTBEAM_CONFIG="${BASE_DIR}/lightbeam.yaml"
 OUTPUT_DIR="${BASE_DIR}/output"
 
 # List of entity types to skip
 #SKIP_ENTITIES=(  ) 
 
-SKIP_ENTITIES=("calendarDates" "staffs" "disciplineIncidents" "classPeriods" "calendars" "localEducationAgencies" "sections" "studentParentAssociations" "courseOfferings" "locations" "schools" "sessions" "disciplineActions" "disciplineIncidents" "studentDisciplineIncidentBehaviorAssociations" "studentEducationOrganizationAssociations") # Specify the entity types to skip
+SKIP_ENTITIES=("calendarDates" "staffs" "disciplineIncidents" "classPeriods" "calendars" "localEducationAgencies" "sections" "studentParentAssociations" "courseOfferings" "locations" "schools" "sessions" "disciplineActions" "disciplineIncidents" "studentDisciplineIncidentBehaviorAssociations" "disciplineActions" "studentSchoolAttendanceEvents" "contacts" "studentSectionAssociations" "courses" "studentEducationOrganizationAssociations" "students" "staffSectionAssociations" "grades" "gradingPeriods" "studentAcademicRecords" "courseTranscripts"  ) # Specify the entity types to skip "courseTranscripts"
 INCLUDE_YEARS=("2012" "2013" "2014" "2015" "2016" "2017" "2018" "2019" "2020" "2021" "2022" "2023" "2024") # Specify the years to include from 2012 to 2023
 
 # Check if output directory exists
@@ -18,7 +18,6 @@ if [ ! -d "$OUTPUT_DIR" ]; then
     echo "Error: Output directory does not exist: $OUTPUT_DIR"
     exit 1
 fi
-
 # First loop: iterate through entity types (directories under output/)
 for entity_dir in "$OUTPUT_DIR"/*/ ; do
     if [ -d "$entity_dir" ]; then

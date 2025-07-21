@@ -43,6 +43,11 @@ function get_edfi_resource_name() {
         "locations") echo "locations" ;;
         "gradingPeriods") echo "grading_periods" ;;
         "disciplineActions") echo "discipline_actions" ;;
+        "studentSchoolAttendanceEvents") echo "student_school_attendance_events" ;;
+        "contacts") echo "contacts" ;;
+        "staffSectionAssociations") echo "staff_section_associations" ;;
+        "studentSectionAssociations") echo "student_section_associations" ;;
+        
 
 
        * ) echo "${dir_name,,}" | sed 's/\([A-Z]\)/_\L\1/g' | sed 's/^_//' ;;

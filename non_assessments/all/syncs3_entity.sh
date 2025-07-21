@@ -76,12 +76,35 @@ function get_edfi_resource_name() {
         "disciplineActions") echo "discipline_actions" ;;
         "studentEducationOrganizationAssociations") echo "student_education_organization_associations" ;;
         "studentDisciplineIncidentBehaviorAssociations") echo "student_discipline_incident_behavior_associations" ;;
-
+        "studentSchoolAttendanceEvents") echo "student_school_attendance_events" ;;
+        "contacts") echo "contacts" ;;
+        "staffSectionAssociations") echo "staff_section_associations" ;;
+        "studentSectionAssociations") echo "student_section_associations" ;;
+        "courseTranscripts") echo "course_transcripts" ;;
+        "grades") echo "grades" ;;
+        "studentAcademicRecords") echo "student_academic_records" ;;
+        "studentSchoolAssociations") echo "student_school_associations" ;;
         * ) echo "${dir_name,,}" | sed 's/\([A-Z]\)/_\L\1/g' | sed 's/^_//' ;;
     esac
+}  # end of get_edfi_resource_name function
+
+# Upload with retry to handle intermittent failures
+function upload_with_retry() {
+    local src="$1"
+    local dest="$2"
+    local max_attempts=3
+    local attempt=1
+    local delay=5
+    until [ $attempt -gt $max_attempts ]; do
+        aws s3 cp "$src" "$dest" && return 0
+        echo "Upload failed for $src (attempt $attempt/$max_attempts). Retrying in ${delay}s..."
+        sleep $delay
+        attempt=$((attempt+1))
+        delay=$((delay*2))
+    done
+    echo "❌ Failed to upload $src after $max_attempts attempts"
+    return 1
 }
-
-
 
 # Function to process files in a year directory
 function process_year_directory() {
@@ -110,8 +133,8 @@ function process_year_directory() {
             
             # Upload file directly
             echo "Uploading $json_file to $s3_path"
-            aws s3 cp "$json_file" "$s3_path"
-            
+            upload_with_retry "$json_file" "$s3_path"
+
             # Check if upload was successful
             if [ $? -eq 0 ]; then
                 echo "✅ Successfully processed $filename"
@@ -172,8 +195,8 @@ if [ $year_count -eq 0 ]; then
             s3_path="s3://$S3_BUCKET/$S3_BASE_PATH/$current_year/$TODAY/$edfi_resource/$filename"
             
             echo "Uploading $json_file to $s3_path"
-            aws s3 cp "$json_file" "$s3_path"
-            
+            upload_with_retry "$json_file" "$s3_path"
+
             if [ $? -eq 0 ]; then
                 echo "✅ Successfully processed $filename"
             else

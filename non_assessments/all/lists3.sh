@@ -43,8 +43,12 @@ fi
 
 # Loop through each year
 for YEAR in $YEARS; do
-    echo -e "\n${YELLOW}Year: $YEAR${NC}"
-    
+   # echo -e "\n${YELLOW}Year: $YEAR${NC}"
+    # only list the files for the year 2012 and later
+    if [ "$YEAR" -lt 2010 ]; then
+        #echo "  Skipping year $YEAR as it is less than 2012."
+        continue
+    fi   
     # List dates for this year
     DATES=$(aws s3 ls "s3://$S3_BUCKET/$S3_BASE_PATH/$YEAR/" | grep PRE | awk '{print $2}' | sed 's/\///')
     
@@ -52,11 +56,7 @@ for YEAR in $YEARS; do
         #echo "  No dates found for this year."
         continue
     fi
-    # only list the files for the year 2012 and later
-    if [ "$YEAR" -lt 2010 ]; then
-        #echo "  Skipping year $YEAR as it is less than 2012."
-        continue
-    fi
+ 
     
     # find the most recent date 
     # DATES=$(echo "$DATES" | sort -r | head -n 1)

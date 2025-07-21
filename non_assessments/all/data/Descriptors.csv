@@ -931,6 +931,8 @@ exit_withdraw_type_descriptors,ed-fi,uri://ed-fi.org/ExitWithdrawTypeDescriptor,
 exit_withdraw_type_descriptors,ed-fi,uri://ed-fi.org/ExitWithdrawTypeDescriptor,Reached maximum age,Reached maximum age,Reached maximum age
 exit_withdraw_type_descriptors,ed-fi,uri://ed-fi.org/ExitWithdrawTypeDescriptor,Transferred,Transferred,Transferred
 exit_withdraw_type_descriptors,ed-fi,uri://ed-fi.org/ExitWithdrawTypeDescriptor,Withdrawn,Withdrawn,Withdrawn
+exit_withdraw_type_descriptors,BPS_ADD,uri://mybps.org/ExitWithdrawTypeDescriptor,Error,Error,Error
+exit_withdraw_type_descriptors,BPS_ADD,uri://mybps.org/ExitWithdrawTypeDescriptor,Change of Address,Change of Address,Change of Address
 grade_level_descriptors,ed-fi,uri://ed-fi.org/GradeLevelDescriptor,Adult Education,Adult Education,Adult Education
 grade_level_descriptors,ed-fi,uri://ed-fi.org/GradeLevelDescriptor,Early Education,Early Education,Early Education
 grade_level_descriptors,ed-fi,uri://ed-fi.org/GradeLevelDescriptor,Eighth grade,Eighth grade,Eighth grade
@@ -2396,6 +2398,15 @@ term_descriptors,ed-fi,uri://ed-fi.org/TermDescriptor,Third Quarter,Third Quarte
 term_descriptors,ed-fi,uri://ed-fi.org/TermDescriptor,Third Trimester,Third Trimester,Third Trimester
 term_descriptors,ed-fi,uri://ed-fi.org/TermDescriptor,Trimester,Trimester,Trimester
 term_descriptors,ed-fi,uri://ed-fi.org/TermDescriptor,Year Round,Year Round,Year Round
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Mini term 1,Mini term 1,Mini term 1
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Mini term 2,Mini term 2,Mini term 2
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Mini term 3,Mini term 3,Mini term 3
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Mini term 4,Mini term 4,Mini term 4
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Mini term 5,Mini term 5,Mini term 5
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Mini term 6,Mini term 6,Mini term 6
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,FY,Full Year,Full Year
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Credit Recovery,Credit Recovery,Credit Recovery
+term_descriptors,BPS_ADD,uri://mybps.org/TermDescriptor,Intersession,Intersession,Intersession
 title_i_part_a_participant_descriptors,ed-fi,uri://ed-fi.org/TitleIPartAParticipantDescriptor,Local Neglected Program,DEPRECATED: Local Neglected Program,DEPRECATED: Local Neglected Program
 title_i_part_a_participant_descriptors,ed-fi,uri://ed-fi.org/TitleIPartAParticipantDescriptor,Private school students participating,Private school students participating,Private school students participating
 title_i_part_a_participant_descriptors,ed-fi,uri://ed-fi.org/TitleIPartAParticipantDescriptor,Public Schoolwide Program,Public Schoolwide Program,Public Schoolwide Program
@@ -3202,6 +3213,8 @@ entry_type_descriptors,bps,uri://mybps.org/EntryTypeDescriptor,Transfer: Program
 entry_type_descriptors,bps,uri://mybps.org/EntryTypeDescriptor,Transfer: Safety,Transfer: Safety,Transfer: Safety
 entry_type_descriptors,bps,uri://mybps.org/EntryTypeDescriptor,Transfer: Sibling,Transfer: Sibling,Transfer: Sibling
 entry_type_descriptors,bps,uri://mybps.org/EntryTypeDescriptor,Transfer: Special Needs,Transfer: Special Needs,Transfer: Special Needs
+entry_type_descriptors,BPS_ADD,uri://mybps.org/EntryTypeDescriptor,Error,Error,Error
+entry_type_descriptors,BPS_ADD,uri://mybps.org/EntryTypeDescriptor,Change of Address,Change of Address,Change of Address
 exit_withdraw_type_descriptors,bps,uri://mybps.org/ExitWithdrawTypeDescriptor,Batch Assignment process school change,Batch Assignment process school change,Batch Assignment process school change
 exit_withdraw_type_descriptors,bps,uri://mybps.org/ExitWithdrawTypeDescriptor,Boston parochial,Boston parochial,Tranfer to Boston parochial school
 exit_withdraw_type_descriptors,bps,uri://mybps.org/ExitWithdrawTypeDescriptor,Boston private (non-parochial),Boston private (non-parochial),Transfer to non-parochial private school in Boston
