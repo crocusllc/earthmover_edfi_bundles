@@ -1,214 +1,170 @@
 import re
+from typing import Dict, List, Optional
+
 import pandas as pd
-from itertools import product
 
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
 _snake_pat = re.compile(r'[^0-9a-zA-Z]')
+_growth_pat = re.compile(r'(.+?)\s+from\s+(.+?)\s+to\s+(.+?)(?:\.(\d+))?$', re.IGNORECASE)
+
 def to_snake_case(text: str) -> str:
-    """Convert to snake_case quickly."""
+    """Convert arbitrary text to snake_case."""
     text = _snake_pat.sub('_', text)
     return re.sub(r'_+', '_', text).strip('_').lower()
 
 # ---------------------------------------------------------------------------
 # FastBridge transformer (seasons → rows, sub-assessments → columns)
 # ---------------------------------------------------------------------------
-def fast_bridge_math_pre_exec(source_file: str,
-                              output_file: str) -> pd.DataFrame:
+def fast_bridge_math_pre_exec(source_file: str, output_file: str) -> pd.DataFrame:
+    """Transform a FastBridge Early Math wide CSV into season-long rows.
 
-    df = pd.read_csv(source_file, dtype=str)          # read once, keep as str
+    Args:
+        source_file: Path to the original wide CSV (values preserved as strings).
+        output_file: Path where the season-long CSV will be written.
 
-    # Clean up column names - fix extra spaces (e.g., "Summer  " -> "Summer")
-    df.columns = [re.sub(r'\s+', ' ', col.strip()) for col in df.columns]
+    Returns:
+        The final transformed DataFrame that has been written to output_file.
+    """
 
-    base_cols = [
-        'Assessment', 'Assessment Language', 'State', 'District', 'School',
-        'Local ID', 'State ID', 'FAST ID', 'First Name', 'Last Name',
-        'Gender', 'DOB', 'Race', 'Special Ed. Status', 'Grade'
+    # Step 1: Load input (as strings) and normalize whitespace in headers
+    df = pd.read_csv(source_file, dtype=str)
+    df.columns = [re.sub(r"\s+", " ", col.strip()) for col in df.columns]
+
+    # Step 2: Define base student/entity columns and ensure presence
+    base_cols: List[str] = [
+        "Assessment", "Assessment Language", "State", "District", "School",
+        "Local ID", "State ID", "FAST ID", "First Name", "Last Name",
+        "Gender", "DOB", "Race", "Special Ed. Status", "Grade",
     ]
-
-    # Identify and separate growth columns
-    growth_columns = []
-    growth_mappings = {}  # original_col -> {clean_name, end_season, start_season}
-
+    # Step 3: Identify growth columns and build mapping to clean names and end seasons
+    growth_columns: List[str] = []
+    growth_mappings: Dict[str, Dict[str, str]] = {}
     for col in df.columns:
-        # Match patterns like 'Growth Score from Fall to Winter' and variations with suffixes
-        match = re.search(r'(.+?)\s+from\s+(.+?)\s+to\s+(.+?)(?:\.(\d+))?$', col, re.IGNORECASE)
-        if match and 'from' in col.lower() and 'to' in col.lower():
-            metric_name = match.group(1).strip()  # e.g., "Growth Score"
-            start_season = match.group(2).strip()  # e.g., "Fall"
-            end_season = match.group(3).strip()   # e.g., "Winter"
+        m = _growth_pat.search(col)
+        if m and "from" in col.lower() and "to" in col.lower():
+            metric_name = m.group(1).strip()
+            start_season = m.group(2).strip()
+            end_season = m.group(3).strip()
 
-            # Create clean column name with source season: metric_from_season
             clean_metric = to_snake_case(metric_name)
-            clean_start_season = to_snake_case(start_season)
-            clean_name = f"{clean_metric}_from_{clean_start_season}"
+            clean_start = to_snake_case(start_season)
+            clean_name = f"{clean_metric}_from_{clean_start}"
 
             growth_columns.append(col)
             growth_mappings[col] = {
-                'clean_name': clean_name,
-                'end_season': end_season,
-                'start_season': start_season
+                "clean_name": clean_name,
+                "end_season": end_season,
+                "start_season": start_season,
             }
 
-    # discover seasons & sub-assessments
-    seasons = sorted({
-        col.replace(' Early Math Final Date', '').strip()
-        for col in df.columns if 'Early Math Final Date' in col
-    })
+    # Step 4: Discover seasons from headers
+    seasons: List[str] = sorted(
+        {
+            col.replace(" Early Math Final Date", "").strip()
+            for col in df.columns
+            if "Early Math Final Date" in col
+        }
+    )
 
-    sub_assessments = sorted({
-        col.split(' ', 1)[1].replace(' Final Date', '')
-        for col in df.columns
-        if any(col.startswith(f'{s} ') and ' Final Date' in col for s in seasons)
-    })
+    # Precompute per-season score columns (non-growth, non-date)
+    season_score_cols: Dict[str, List[str]] = {}
+    season_score_snake: Dict[str, Dict[str, str]] = {}
+    for season in seasons:
+        prefix = f"{season} "
+        cols = [
+            c
+            for c in df.columns
+            if c.startswith(prefix)
+            and "Final Date" not in c
+            and c not in growth_columns
+            and c not in base_cols
+        ]
+        season_score_cols[season] = cols
+        season_score_snake[season] = {c: to_snake_case(c[len(prefix) :]) for c in cols}
 
-    # Create growth pivot data separately
-    growth_pivot_data = None
+    # Step 5: Build growth pivot table
+    growth_pivot_data: Optional[pd.DataFrame] = None
     if growth_columns:
-        print(f"Processing {len(growth_columns)} growth columns...")
+        print(f"Processing {len(growth_columns)} growth columns…")
+        by_end_clean: Dict[str, Dict[str, List[str]]] = {}
+        for orig_col, info in growth_mappings.items():
+            by_end_clean.setdefault(info["end_season"], {}).setdefault(info["clean_name"], []).append(orig_col)
 
-        # Create base data for growth pivot (just the base columns)
-        growth_base_df = df[base_cols].copy()
-
-        # Create growth pivot rows - one row per student per end season
-        growth_rows = []
-
-        # Get all unique end seasons from growth columns
-        end_seasons = sorted(set(info['end_season'] for info in growth_mappings.values()))
+        end_seasons = sorted(by_end_clean.keys())
         print(f"End seasons found: {end_seasons}")
 
-        for idx, row in growth_base_df.iterrows():
+        growth_base_df = df[base_cols].copy()
+        growth_rows: List[Dict[str, Optional[str]]] = []
+        for idx in growth_base_df.index:
+            base_vals = growth_base_df.loc[idx].to_dict()
             for end_season in end_seasons:
-                # Create a row for this student and end season
-                pivot_row = row.to_dict()
-                pivot_row['Season'] = end_season
-
-                # Group original columns by clean name to handle duplicates
-                columns_by_clean_name = {}
-                for orig_col, info in growth_mappings.items():
-                    if info['end_season'] == end_season:
-                        clean_name = info['clean_name']
-                        if clean_name not in columns_by_clean_name:
-                            columns_by_clean_name[clean_name] = []
-                        columns_by_clean_name[clean_name].append(orig_col)
-
-                # For each clean column name, consolidate values from duplicate columns
-                for clean_name, orig_cols in columns_by_clean_name.items():
-                    # Take the first non-null, non-empty value from the duplicate columns
+                pivot_row = dict(base_vals)
+                pivot_row["Season"] = end_season
+                for clean_name, orig_cols in by_end_clean[end_season].items():
                     final_value = None
-                    for orig_col in orig_cols:
-                        value = df.iloc[idx][orig_col]
-                        if pd.notna(value) and str(value).strip() != '':
-                            final_value = value
+                    for oc in orig_cols:
+                        val = df.at[idx, oc]
+                        if pd.notna(val) and str(val).strip() != "":
+                            final_value = val
                             break
-
                     pivot_row[clean_name] = final_value
-
                 growth_rows.append(pivot_row)
 
         growth_pivot_data = pd.DataFrame(growth_rows)
         print(f"Created growth pivot data with shape: {growth_pivot_data.shape}")
 
-        # Filter out rows with no growth values
-        growth_cols = [col for col in growth_pivot_data.columns if '_from_' in col]
-        if growth_cols:
-            # Keep rows that have at least one non-null, non-empty growth value
-            has_growth_data = growth_pivot_data[growth_cols].notna() & (growth_pivot_data[growth_cols] != '')
-            growth_mask = has_growth_data.any(axis=1)
-            growth_pivot_data = growth_pivot_data[growth_mask]
+        gp_cols = [c for c in growth_pivot_data.columns if "_from_" in c]
+        if gp_cols:
+            has_growth = growth_pivot_data[gp_cols].notna() & (growth_pivot_data[gp_cols] != "")
+            growth_pivot_data = growth_pivot_data[has_growth.any(axis=1)]
             print(f"After filtering empty growth rows: {growth_pivot_data.shape}")
 
-    # build one rename map for non-growth columns
-    rename_map = {}
-    for season, sa in product(seasons, sub_assessments):
-        prefix = f'{season} {sa} '
-        score_cols = df.filter(regex=fr'^{re.escape(prefix)}(?!.*Final Date)').columns
-        # Exclude growth columns from normal processing
-        score_cols = [col for col in score_cols if col not in growth_columns]
-        for col in score_cols:
-            metric = col[len(prefix):]
-            rename_map[col] = to_snake_case(f'{sa} {metric}')
-
-        fdate_col = f'{season} {sa} Final Date'
-        if sa != 'Early Math' and fdate_col in df.columns:
-            rename_map[fdate_col] = to_snake_case(f'{sa} final_date')
-
-    # Filter out growth columns before renaming
-    non_growth_df = df.drop(columns=growth_columns)
-    non_growth_df = non_growth_df.rename(columns=rename_map)
-
-    # Create season-specific assessment rows (similar to growth data approach)
-    assessment_rows = []
-
-    for idx, row in df.iterrows():  # Use original df, not non_growth_df which has columns removed
+    # Step 6: Build assessment rows per season
+    assessment_rows: List[Dict[str, Optional[str]]] = []
+    final_date_col_of = {s: f"{s} Early Math Final Date" for s in seasons}
+    for idx in df.index:
+        row = df.loc[idx]
         for season in seasons:
-            # Check if this student has data for this season
-            final_date_col = f'{season} Early Math Final Date'
-            if final_date_col not in df.columns:
+            fdate_col = final_date_col_of[season]
+            if fdate_col not in df.columns:
+                continue
+            final_date = row.get(fdate_col)
+            if pd.isna(final_date) or str(final_date).strip() == "":
                 continue
 
-            final_date = row[final_date_col]
-            if pd.isna(final_date) or str(final_date).strip() == '':
-                continue
-
-            # Create row for this student-season combination
-            season_row = {col: row[col] for col in base_cols}
-            season_row['Season'] = season
-            season_row['Final_Date'] = final_date
-
-            # Add only season-specific assessment scores
-            for col in df.columns:
-                if col in base_cols or col == final_date_col or col in growth_columns:
-                    continue
-
-                # Check if this column belongs to the current season
-                if col.startswith(f'{season} '):
-                    # Extract the metric part and create snake_case name
-                    metric_part = col[len(f'{season} '):]
-                    # Skip Final Date columns as we already handle them
-                    if 'Final Date' in metric_part:
-                        continue
-                    snake_name = to_snake_case(metric_part)
-                    season_row[snake_name] = row[col]
-
+            season_row: Dict[str, Optional[str]] = {c: row.get(c) for c in base_cols}
+            season_row["Season"] = season
+            season_row["Final_Date"] = final_date
+            for col in season_score_cols[season]:
+                snake_name = season_score_snake[season][col]
+                season_row[snake_name] = row.get(col)
             assessment_rows.append(season_row)
 
     assessment_df = pd.DataFrame(assessment_rows)
-
-    # Filter to keep only rows with actual assessment score data
-    if len(assessment_df) > 0:
-        score_cols = [col for col in assessment_df.columns
-                     if col not in base_cols + ['Season', 'Final_Date']]
+    if not assessment_df.empty:
+        score_cols = [c for c in assessment_df.columns if c not in base_cols + ["Season", "Final_Date"]]
         if score_cols:
-            # Keep rows that have at least one non-null, non-empty score
-            has_score_data = assessment_df[score_cols].notna() & (assessment_df[score_cols] != '')
-            score_mask = has_score_data.any(axis=1)
-            assessment_df = assessment_df[score_mask]
+            has_scores = assessment_df[score_cols].notna() & (assessment_df[score_cols] != "")
+            assessment_df = assessment_df[has_scores.any(axis=1)]
 
     print(f"Created assessment data with shape: {assessment_df.shape}")
-    if len(assessment_df) > 0:
-        print(f"Assessment score columns: {[col for col in assessment_df.columns if col not in base_cols + ['Season', 'Final_Date']]}")
+    if not assessment_df.empty:
+        print("Assessment score columns:", [c for c in assessment_df.columns if c not in base_cols + ["Season", "Final_Date"]])
     else:
         print("No assessment data found")
 
-    # Join growth data with assessment data if available
+    # Step 7: Merge growth onto assessment
     if growth_pivot_data is not None:
         print(f"Assessment data shape: {assessment_df.shape}")
         print(f"Growth data shape: {growth_pivot_data.shape}")
-
-        # Merge on base columns + Season
-        merge_cols = base_cols + ['Season']
-        final_df = pd.merge(
-            assessment_df,
-            growth_pivot_data,
-            on=merge_cols,
-            how='left'  # Only keep rows that exist in assessment_df (which are already filtered)
-        )
+        merge_cols = base_cols + ["Season"]
+        final_df = pd.merge(assessment_df, growth_pivot_data, on=merge_cols, how="left")
         print(f"Final merged data shape: {final_df.shape}")
     else:
         final_df = assessment_df
 
+    # Step 8: Write output
     final_df.to_csv(output_file, index=False)
     return final_df
