@@ -1,6 +1,4 @@
 import re
-from typing import Dict, List, Optional
-
 import pandas as pd
 
 # ---------------------------------------------------------------------------
@@ -9,7 +7,7 @@ import pandas as pd
 _snake_pat = re.compile(r'[^0-9a-zA-Z]')
 _growth_pat = re.compile(r'(.+?)\s+from\s+(.+?)\s+to\s+(.+?)(?:\.(\d+))?$', re.IGNORECASE)
 
-def to_snake_case(text: str) -> str:
+def to_snake_case(text):
     """Convert arbitrary text to snake_case."""
     text = _snake_pat.sub('_', text)
     return re.sub(r'_+', '_', text).strip('_').lower()
@@ -17,7 +15,7 @@ def to_snake_case(text: str) -> str:
 # ---------------------------------------------------------------------------
 # FastBridge transformer (seasons → rows, sub-assessments → columns)
 # ---------------------------------------------------------------------------
-def fast_bridge_math_pre_exec(source_file: str, output_file: str) -> pd.DataFrame:
+def fast_bridge_math_pre_exec(source_file, output_file):
     """Transform a FastBridge Early Math wide CSV into season-long rows.
 
     Args:
@@ -33,14 +31,14 @@ def fast_bridge_math_pre_exec(source_file: str, output_file: str) -> pd.DataFram
     df.columns = [re.sub(r"\s+", " ", col.strip()) for col in df.columns]
 
     # Step 2: Define base student/entity columns and ensure presence
-    base_cols: List[str] = [
+    base_cols = [
         "Assessment", "Assessment Language", "State", "District", "School",
         "Local ID", "State ID", "FAST ID", "First Name", "Last Name",
         "Gender", "DOB", "Race", "Special Ed. Status", "Grade",
     ]
     # Step 3: Identify growth columns and build mapping to clean names and end seasons
-    growth_columns: List[str] = []
-    growth_mappings: Dict[str, Dict[str, str]] = {}
+    growth_columns = []
+    growth_mappings = {}
     for col in df.columns:
         m = _growth_pat.search(col)
         if m and "from" in col.lower() and "to" in col.lower():
@@ -60,7 +58,7 @@ def fast_bridge_math_pre_exec(source_file: str, output_file: str) -> pd.DataFram
             }
 
     # Step 4: Discover seasons from headers
-    seasons: List[str] = sorted(
+    seasons = sorted(
         {
             col.replace(" Early Math Final Date", "").strip()
             for col in df.columns
@@ -69,8 +67,8 @@ def fast_bridge_math_pre_exec(source_file: str, output_file: str) -> pd.DataFram
     )
 
     # Precompute per-season score columns (non-growth, non-date)
-    season_score_cols: Dict[str, List[str]] = {}
-    season_score_snake: Dict[str, Dict[str, str]] = {}
+    season_score_cols = {}
+    season_score_snake = {}
     for season in seasons:
         prefix = f"{season} "
         cols = [
@@ -84,11 +82,38 @@ def fast_bridge_math_pre_exec(source_file: str, output_file: str) -> pd.DataFram
         season_score_cols[season] = cols
         season_score_snake[season] = {c: to_snake_case(c[len(prefix) :]) for c in cols}
 
+    # Map positional generic Error columns to objective-specific names.
+    # Some files include repeated generic columns named "Error" (possibly suffixed: Error, Error.1, ...)
+    # that belong to the preceding objective (usually the column ending with "IC per minute" or
+    # "WRC per minute"). We detect and map these to canonical headers: "{season} {objective} Error".
+    error_mapping = {}
+    for season in seasons:
+        season_prefix = f"{season} "
+        for i, col in enumerate(df.columns):
+            if not col.startswith(season_prefix):
+                continue
+            anchor_suffix = None
+            # Math files use different anchors than English; include NRC per minute
+
+            if col.endswith(" IC per minute"):
+                anchor_suffix = " IC per minute"
+            elif col.endswith(" NRC per minute"):
+                anchor_suffix = " NRC per minute"
+            if anchor_suffix is None:
+                continue
+            # derive objective between season prefix and anchor suffix
+            objective = col[len(season_prefix) : -len(anchor_suffix)]
+            # next column is a generic Error column? map it
+            if i + 1 < len(df.columns):
+                next_col = df.columns[i + 1]
+                if next_col.startswith("Error") and not next_col.startswith(season_prefix):
+                    error_mapping[next_col] = f"{season} {objective} Error"
+
     # Step 5: Build growth pivot table
-    growth_pivot_data: Optional[pd.DataFrame] = None
+    growth_pivot_data = None
     if growth_columns:
         print(f"Processing {len(growth_columns)} growth columns…")
-        by_end_clean: Dict[str, Dict[str, List[str]]] = {}
+        by_end_clean = {}
         for orig_col, info in growth_mappings.items():
             by_end_clean.setdefault(info["end_season"], {}).setdefault(info["clean_name"], []).append(orig_col)
 
@@ -96,7 +121,7 @@ def fast_bridge_math_pre_exec(source_file: str, output_file: str) -> pd.DataFram
         print(f"End seasons found: {end_seasons}")
 
         growth_base_df = df[base_cols].copy()
-        growth_rows: List[Dict[str, Optional[str]]] = []
+        growth_rows = []
         for idx in growth_base_df.index:
             base_vals = growth_base_df.loc[idx].to_dict()
             for end_season in end_seasons:
@@ -122,7 +147,7 @@ def fast_bridge_math_pre_exec(source_file: str, output_file: str) -> pd.DataFram
             print(f"After filtering empty growth rows: {growth_pivot_data.shape}")
 
     # Step 6: Build assessment rows per season
-    assessment_rows: List[Dict[str, Optional[str]]] = []
+    assessment_rows = []
     final_date_col_of = {s: f"{s} Early Math Final Date" for s in seasons}
     for idx in df.index:
         row = df.loc[idx]
@@ -133,13 +158,19 @@ def fast_bridge_math_pre_exec(source_file: str, output_file: str) -> pd.DataFram
             final_date = row.get(fdate_col)
             if pd.isna(final_date) or str(final_date).strip() == "":
                 continue
-
-            season_row: Dict[str, Optional[str]] = {c: row.get(c) for c in base_cols}
+            season_row = {c: row.get(c) for c in base_cols}
             season_row["Season"] = season
             season_row["Final_Date"] = final_date
             for col in season_score_cols[season]:
                 snake_name = season_score_snake[season][col]
                 season_row[snake_name] = row.get(col)
+            # include mapped generic Error columns for this season
+            season_prefix = f"{season} "
+            for orig_err, mapped_hdr in error_mapping.items():
+                if mapped_hdr.startswith(season_prefix):
+                    obj = mapped_hdr[len(season_prefix):].replace(" Error", "")
+                    snake_err = to_snake_case(f"{obj} error")
+                    season_row[snake_err] = row.get(orig_err)
             assessment_rows.append(season_row)
 
     assessment_df = pd.DataFrame(assessment_rows)
